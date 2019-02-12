@@ -11,7 +11,7 @@ permalink: /background/
 
 ### Data origins
 
-### List of abbreviations
+### Acronym
 **CCG** - <a href='https://www.nhscc.org/ccgs/'>Clinical Commission Group</a>
 
 **ELFT** - <a href='https://www.elft.nhs.uk/'>East London NHS Foundation Trust</a>
