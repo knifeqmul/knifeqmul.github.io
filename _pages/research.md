@@ -8,6 +8,15 @@ permalink: /research/
 
 
 
+# News
+
+{% for article in site.data.news %}
+<p>{{ article.date }} <br>
+<em>{{ article.headline }}</em></p>
+{% endfor %}
+
+
+
 ## Issues
 1. Data is in CCG, while GPs are located in clinics.
 2. Data is semi-structured without clear description.
