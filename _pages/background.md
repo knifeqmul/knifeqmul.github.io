@@ -22,6 +22,8 @@ permalink: /background/
 
 **CRS** - Clinical Record System or Care Records Service?
 
-**Rio** - The electronic patient record system which holds information about referrals, appointments and clinical information.
+**RiO** - The electronic patient record system which holds information about referrals, appointments and clinical information.
 
 **EMIS** - EMIS Health, formerly known as <a href='https://www.emishealth.com/'>Egton Medical Information Systems</a>, supplies electronic patient record systems and software used in primary care in England. It claims that more than half of GP practices across the UK use EMIS software.
+
+**CSU** - Commissioning Support Units provide CCGs with external support, specialist skills and knowledge to support them in their role as commissioners, including business intelligence services, clinical procurement services, business support services such as human resources, payroll, procurement of goods and services and some aspects of informatics.
