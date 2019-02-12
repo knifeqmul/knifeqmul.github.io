@@ -1,4 +1,4 @@
- - name: William Marsh
+ - name: Dr William Marsh
    photo: william.jpg
    number_educ: 2
    education1: Senior Lecturer, Queen Mary University of London
@@ -6,10 +6,31 @@
    email: d.w.r.marsh@qmul.ac.uk
    info: William’s research aims are to develop better ways to build useful risk and decision making techniques, using a combination of data and knowledge (or expertise). He mainly works with Bayesian networks and prefers to work with ‘end users’ who are making decisions. He is currently collaborating with several groups of clinicians to build decision support systems for medical decision problems.
 
+ - name: Prof Norman Fenton
+   photo: norman.jpg
+   number_educ: 2
+   education1: Professor, Queen Mary University of London
+   education2: <a href="http://www.eecs.qmul.ac.uk/profiles/fentonnorman.html/">Personal Page</a> 
+   email: n.fenton@qmul.ac.uk
+   info: Norman’s current research focuses primarily on quantitative risk assessment. This typically involves analysing and predicting the probabilities of unknown events using Bayesian statistical methods including especially causal, probabilistic models (Bayesian Networks). This type of reasoning enables improved assessment by taking account of both statistical data and also expert judgment. In addition, Norman has a long track record of work in software engineering (including pioneering work on software metrics). The new third edition of his book “Software Metrics: A Rigorous and Practical Approach” was published in November 2014.
 
-
-
-
+ - name: Prof Martin Neil
+   photo: martin.jpg
+   number_educ: 2
+   education1: Professor, Queen Mary University of London
+   education2: <a href="http://www.eecs.qmul.ac.uk/~martin/">Personal Page</a> 
+   email: m.neil@qmul.ac.uk
+   info: Martin is a Professor in Computer Science and Statistics in Queen Mary, University of London. His research interests cover Bayesian modeling and risk quantification in diverse areas. Experience in applying Bayesian methods to real problems has convinced him that intelligent risk assessment and decision analysis requires knowledge and data. Not just “Big Data”. He is also a joint founder and of Agena Ltd, who develop and distribute AgenaRisk, a software product for modeling risk and uncertainty. At Queen Mary he teaches decision and risk analysis and software engineering.
+   
+ - name: Dr John Robson
+   photo: robson.png
+   number_educ: 2
+   education1: Clinical Reader in Primary Care Research & Development, Queen Mary University of London
+   education2: <a href="https://www.qmul.ac.uk/blizard/staff/centre-for-primary-care-and-public-health/staff/john-robson.html">Personal Page</a> 
+   email: j.robson@qmul.ac.uk
+   info: John Robson qualified at St Marys Hospital Medical School, University of London and undertook an MSc/MD at the London School of Hygiene. He has been a GP in east London for 30 years at Chrisp Street Health Centre. He has also been a senior lecturer at QMUL since 1989 since when he has been the clinical lead for the Clinical Effectiveness Group that has worked with local GPs and the PCT to improve disease management in a population of 800,000 people.
+   
+   
 # - name: Milan P Allan
 #   photo: Milan.jpg
 #   info: Assistant Professor, started Jan 2015
