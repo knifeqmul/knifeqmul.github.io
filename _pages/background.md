@@ -12,7 +12,9 @@ permalink: /background/
 ### Data origins
 
 ### List of abbreviations
-
+CCG - Clinical Commission Group
+ELFT - East London NHS Foundation Trust
+HLP - Healthy London Partnership
 
 
 
