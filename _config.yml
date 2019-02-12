@@ -8,7 +8,7 @@
 # Site settings
 title: KNIFE
 email: haoyuan.zhang@qmul.ac.uk
-description: > KNIFE (Knowledge Discovery from Health Use Data).
+description:  KNIFE (Knowledge Discovery from Health Use Data).
 baseurl: ""
 url: ""
 
