@@ -12,7 +12,8 @@
    education1: Professor, Queen Mary University of London
    education2: <a href="http://www.eecs.qmul.ac.uk/profiles/fentonnorman.html">Personal Page</a> 
    email: n.fenton@qmul.ac.uk
-   info: Norman’s current research focuses primarily on quantitative risk assessment. 
+   info: Norman’s current research focuses primarily on quantitative risk assessment. This typically involves analysing and predicting the probabilities of unknown events using Bayesian statistical methods including especially causal, probabilistic models (Bayesian Networks). This type of reasoning enables improved assessment by taking account of both statistical data and also expert judgment. In addition, Norman has a long track record of work in software engineering (including pioneering work on software metrics).
+   
  - name: Prof Martin Neil
    photo: martin.jpg
    number_educ: 2
