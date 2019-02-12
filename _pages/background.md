@@ -10,8 +10,7 @@ permalink: /background/
 ## Background
 
 ### Data origins
-<figure class="center"> <img src="{{ site.url }}{{ site.baseurl }}/images/background/databases.png" style="width: 450px"> </figure>
-<figure class="two"> <img src="{{ site.url }}{{ site.baseurl }}/images/background/databases.png" style="width: 450px"> </figure>
+<figure class="center"> <img src="{{ site.url }}{{ site.baseurl }}/images/background/databases.png" style="width: 450px">
 
 ### Glossary
 **CCGs** - <a href='https://www.nhscc.org/ccgs/'>Clinical Commission Groups</a> commission most of the hospital and community NHS services in the local areas for which they are responsible. Commissioning involves deciding what services are needed for diverse local populations, and ensuring that they are provided.
