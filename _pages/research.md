@@ -8,7 +8,7 @@ permalink: /research/
 
 
 
-# News
+# Research Updates
 
 {% for article in site.data.news %}
 <p>{{ article.date }} <br>
