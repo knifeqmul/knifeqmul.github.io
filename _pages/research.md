@@ -17,8 +17,8 @@ For full details see [here]({{ site.baseurl }}/downloads/Turing-proposal-marsh-4
 
 
 ## To do
-### 1. Ontology
-### 2. EHR applications
-### 3. Causal hypothesis testing
+1. Ontology
+2. EHR applications
+3. Causal hypothesis testing
 
 
