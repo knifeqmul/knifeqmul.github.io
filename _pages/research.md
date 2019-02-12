@@ -1,19 +1,11 @@
 ---
-title: "KNIFE - Research Updates"
+title: "KNIFE - Research"
 layout: gridlay
-excerpt: "KNIFE -- Research Updates."
+excerpt: "KNIFE -- Research."
 sitemap: false
 permalink: /research/
 ---
 
-
-
-# Research Updates
-
-{% for article in site.data.news %}
-<p>{{ article.date }} <br>
-<em>{{ article.headline }}</em></p>
-{% endfor %}
 
 
 
