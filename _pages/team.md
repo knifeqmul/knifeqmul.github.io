@@ -22,37 +22,37 @@ permalink: /team/
   <ul style="overflow: hidden">
 
   {% if member.number_educ == 1 %}
-  <li> {{ member.education1 }} </li>
+  <i><li> {{ member.education1 }} </li></i>
   {% endif %}
 
   {% if member.number_educ == 2 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
+  <i><li> {{ member.education1 }} </li></i>
+  <i><li> {{ member.education2 }} </li></i>
   {% endif %}
 
   {% if member.number_educ == 3 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
+  <i><li> {{ member.education1 }} </li></i>
+  <i><li> {{ member.education2 }} </li></i>
+  <i><li> {{ member.education3 }} </li></i>
   {% endif %}
 
   {% if member.number_educ == 4 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
+  <i><li> {{ member.education1 }} </li></i>
+  <i><li> {{ member.education2 }} </li></i>
+  <i><li> {{ member.education3 }} </li></i>
+  <i><li> {{ member.education4 }} </li></i>
   {% endif %}
 
   {% if member.number_educ == 5 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  <li> {{ member.education5 }} </li>
+  <i><li> {{ member.education1 }} </li></i>
+  <i><li> {{ member.education2 }} </li></i>
+  <i><li> {{ member.education3 }} </li></i>
+  <i><li> {{ member.education4 }} </li></i>
+  <i><li> {{ member.education5 }} </li></i>
   {% endif %}
   </ul>
   
-<i>{{ member.info }}</i>
+{{ member.info }}
 </div>
     
  
