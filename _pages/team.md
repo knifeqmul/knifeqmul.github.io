@@ -20,7 +20,6 @@ permalink: /team/
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <h4>{{ member.name }}</h4>
   <i>{{ member.info }}<br>Email: <{{ member.email }}></i>
-  <i><br> <{{ member.personal }}</i>
    
     
 
