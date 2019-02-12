@@ -3,7 +3,7 @@ title: "News"
 layout: textlay
 excerpt: "Knowledge Discovery from Health Use Data"
 sitemap: false
-permalink: /allnews.html
+permalink: /allnews
 ---
 
 # News
