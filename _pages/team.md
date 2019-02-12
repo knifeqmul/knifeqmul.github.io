@@ -23,7 +23,7 @@ permalink: /team/
     
 <ul style="overflow: hidden">
   {% if member.number_educ == 1 %}
-  {{ member.education1 }} 
+  {{ member.intro }} 
   {% endif %}
 
   {% if member.number_educ == 2 %}
