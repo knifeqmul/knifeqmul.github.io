@@ -1,18 +1,16 @@
  - name: Dr William Marsh
    photo: william.jpg
-   number_educ: 3
+   number_educ: 2
    education1: Senior Lecturer, Queen Mary University of London
    education2: <a href="http://www.eecs.qmul.ac.uk/profiles/marshwilliam.html">Personal Page</a> 
-   education3: <a href="d.w.r.marsh@qmul.ac.uk">Email: d.w.r.marsh@qmul.ac.uk</a> 
    email: d.w.r.marsh@qmul.ac.uk
    info: William’s research aims are to develop better ways to build useful risk and decision making techniques, using a combination of data and knowledge (or expertise). He mainly works with Bayesian networks and prefers to work with ‘end users’ who are making decisions. He is currently collaborating with several groups of clinicians to build decision support systems for medical decision problems.
 
  - name: Prof Norman Fenton
    photo: norman.jpg
-   number_educ: 3
+   number_educ: 2
    education1: Professor, Queen Mary University of London
    education2: <a href="http://www.eecs.qmul.ac.uk/profiles/fentonnorman.html">Personal Page</a> 
-   education3: n.fenton@qmul.ac.uk
    email: n.fenton@qmul.ac.uk
    info: Norman’s current research focuses primarily on quantitative risk assessment. This typically involves analysing and predicting the probabilities of unknown events using Bayesian statistical methods including especially causal, probabilistic models (Bayesian Networks). This type of reasoning enables improved assessment by taking account of both statistical data and also expert judgment. In addition, Norman has a long track record of work in software engineering (including pioneering work on software metrics).
    
