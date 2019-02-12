@@ -16,9 +16,14 @@ The increasing use and capability of Electronic Health Record (EHR) systems has 
 For full details see [here]({{ site.baseurl }}/downloads/Turing-proposal-marsh-4pages.pdf).
 
 
-## To do
-1. Ontology
-2. EHR applications
-3. Causal hypothesis testing
+## Issues
+1. Data is in CCG, while GPs are located in clinics.
+2. Data is semi-structured without clear description.
 
+
+
+## To do
+1. Ontology.
+2. EHR applications.
+3. Causal hypothesis testing.
 
