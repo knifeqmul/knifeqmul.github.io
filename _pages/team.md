@@ -19,6 +19,7 @@ permalink: /team/
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <h4>{{ member.name }}</h4>
+  {{ member.info }}<br>**Email:** <{{ member.email }}>
 
 <ul style="overflow: hidden">
 
@@ -51,7 +52,6 @@ permalink: /team/
   <li> {{ member.education4 }} </li>
   <li> {{ member.education5 }} </li>
   {% endif %}
-  {{ member.info }}<br>**Email:** <{{ member.email }}>
 
   </ul>
 </div>
