@@ -1,7 +1,7 @@
 ---
-title: "Allan Lab - Home"
+title: "KNIFE - Home"
 layout: homelay
-excerpt: "Allan Lab at Leiden University."
+excerpt: "Knowledge Discovery from Health Use Data"
 sitemap: false
 permalink: /
 ---
