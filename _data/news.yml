@@ -1,8 +1,17 @@
 - date: 13. Feb 2019
   headline: "Updated To Do Lists"
+  ## To do
+  1. Ontology.
+  2. EHR applications.
+  3. Causal hypothesis testing.
+
   
 - date: 12. Feb 2019
   headline: "Updated Issues"
+  ## Issues
+  1. Data is in CCG, while GPs are located in clinics.
+  2. Data is semi-structured without clear description.
+
 
 # - date: 13. December 2018
 #   headline: "Our paper about how to construct an STM is in <a href='https://aip.scitation.org/doi/10.1063/1.5064442'>Review of Scientific Instruments</a>. <img src='/images/newspic/DomeNews.png' class='img-responsive' style='max-width: 192px' />"
