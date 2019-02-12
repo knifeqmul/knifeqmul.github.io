@@ -1,7 +1,7 @@
 ---
 title: "News"
 layout: textlay
-excerpt: "Allan Lab at Leiden University."
+excerpt: "Knowledge Discovery from Health Use Data"
 sitemap: false
 permalink: /allnews.html
 ---
