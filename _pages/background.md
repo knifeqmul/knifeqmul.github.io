@@ -24,49 +24,48 @@ For full details see [here]({{ site.baseurl }}/downloads/Turing-proposal-marsh-4
 
 ### Database
 Some tables in the database:
-
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg .tg-kiyi{font-weight:bold;border-color:inherit;text-align:left}
-.tg .tg-2dfk{font-weight:bold;background-color:#ecf4ff;border-color:inherit;text-align:center;vertical-align:top}
-.tg .tg-xldj{border-color:inherit;text-align:left}
-.tg .tg-fymr{font-weight:bold;border-color:inherit;text-align:left;vertical-align:top}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-3dpa{font-weight:bold;background-color:#ecf4ff;text-align:center}
+.tg .tg-5ua9{font-weight:bold;text-align:left}
+.tg .tg-s268{text-align:left}
+.tg .tg-0lax{text-align:left;vertical-align:top}
 </style>
 <table class="tg">
   <tr>
-    <th class="tg-2dfk">table</th>
-    <th class="tg-2dfk">description</th>
+    <th class="tg-3dpa">table</th>
+    <th class="tg-3dpa">description</th>
   </tr>
   <tr>
-    <td class="tg-kiyi">person</td>
-    <td class="tg-xldj">links to personal information, including name, GP, address, and other information</td>
+    <td class="tg-5ua9">person</td>
+    <td class="tg-s268">links to personal information, including name, GP, address, and other information</td>
   </tr>
   <tr>
-    <td class="tg-kiyi">person_prsnl_reltn</td>
-    <td class="tg-xldj">patient's person relation, such as the primary care physician of the patient</td>
+    <td class="tg-5ua9">person_prsnl_reltn</td>
+    <td class="tg-s268">patient's person relation, such as the primary care physician of the patient</td>
   </tr>
   <tr>
-    <td class="tg-kiyi">order</td>
-    <td class="tg-xldj">can pull orders, alerts, drugs administration and procedures</td>
+    <td class="tg-5ua9">order</td>
+    <td class="tg-s268">can pull orders, alerts, drugs administration and procedures</td>
   </tr>
   <tr>
-    <td class="tg-kiyi">diagnosis and nomenclature</td>
-    <td class="tg-xldj">keep various classifications like Snomed and ICD-10 can be tied to an encounter</td>
+    <td class="tg-5ua9">diagnosis and nomenclature</td>
+    <td class="tg-s268">keep various classifications like Snomed and ICD-10 can be tied to an encounter</td>
   </tr>
   <tr>
-    <td class="tg-fymr">pathway</td>
-    <td class="tg-0pky">store details about powerplans. A powerplan pre-prepared group of orders (such as <br>radiology, pathology, laboratory tests, medications, patient care etc) and <br>associated instructions for a specific condition, procedure or element of treatment<br>for faster electronic order entry</td>
+    <td class="tg-1wig">pathway</td>
+    <td class="tg-0lax">store details about powerplans. A powerplan pre-prepared group of orders (such as radiology, pathology, laboratory tests, medications, patient care etc) and associated instructions for a specific condition, procedure or element of treatmentfor faster electronic order entry</td>
   </tr>
   <tr>
-    <td class="tg-fymr">clinical_event</td>
-    <td class="tg-0pky">store patient encounter records per clinic, including information such as vital signs, <br>drugs administration time, and lab results</td>
+    <td class="tg-1wig">clinical_event</td>
+    <td class="tg-0lax">store patient encounter records per clinic, including information such as vital signs, drugs administration time, and lab results</td>
   </tr>
 </table>
 
-
+<br>
 Some notes about the **encounter** table.
 
 <style type="text/css">
