@@ -67,35 +67,34 @@ Some tables in the database:
 
 <br>
 Some notes about the **encounter** table.
-
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg .tg-3dpa{font-weight:bold;background-color:#ecf4ff;text-align:center}
-.tg .tg-5ua9{font-weight:bold;text-align:left}
-.tg .tg-s268{text-align:left}
+.tg .tg-qtf5{border-color:#000000;text-align:left}
+.tg .tg-v51t{font-weight:bold;background-color:#ecf4ff;border-color:#000000;text-align:center}
+.tg .tg-v47y{font-weight:bold;border-color:#000000;text-align:left}
 </style>
 <table class="tg">
   <tr>
-    <th class="tg-3dpa">field name</th>
-    <th class="tg-3dpa">description of table encounter</th>
+    <th class="tg-v51t">field name</th>
+    <th class="tg-v51t">description of table encounter</th>
   </tr>
   <tr>
-    <td class="tg-5ua9">encntr_type_cd</td>
-    <td class="tg-s268">Inpatient or outpatient encounter type</td>
+    <td class="tg-v47y">encntr_type_cd</td>
+    <td class="tg-qtf5">Inpatient or outpatient encounter type</td>
   </tr>
   <tr>
-    <td class="tg-5ua9">encntr_type_class_cd</td>
-    <td class="tg-s268">classifies patients into more general groups such as emergency, recurring outpatient</td>
+    <td class="tg-v47y">encntr_type_class_cd</td>
+    <td class="tg-qtf5">classifies patients into more general groups such as emergency, recurring outpatient</td>
   </tr>
   <tr>
-    <td class="tg-5ua9">reg_dt_tm</td>
-    <td class="tg-s268">the registered or admitted date of the patient</td>
+    <td class="tg-v47y">reg_dt_tm</td>
+    <td class="tg-qtf5">the registered or admitted date of the patient</td>
   </tr>
   <tr>
-    <td class="tg-5ua9">active_ind</td>
-    <td class="tg-s268">1 means the patient is active, 0 means the patiend has discharged</td>
+    <td class="tg-v47y">active_ind</td>
+    <td class="tg-qtf5">1 means the patient is active, 0 means the patiend has discharged</td>
   </tr>
 </table>
 
