@@ -9,7 +9,7 @@ permalink: /research/
 
 CCG holds a data repository that links pseudonymised patient level records across health and care settings. The records replaced NHS number with pseudo ID, date of birth with age etc. It is not considered as personal data by law if this is handled in a secure enviroment. 
 
-<figure class="center"> <img src="{{ site.url }}{{ site.baseurl }}/images/background/todo.png" style="width: 450px" align="middle">
+<img src="{{ site.url }}{{ site.baseurl }}/images/background/todo.png" style="width: 450px">
 
 
 
