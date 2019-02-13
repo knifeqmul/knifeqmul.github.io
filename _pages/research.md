@@ -7,7 +7,7 @@ permalink: /research/
 ---
 
 
-
+CCG develops a data repository, linking pseudonymised patient level records across health and care settings.
 
 ## Issues
 1. Data is in CCG, while GPs are located in clinics.
