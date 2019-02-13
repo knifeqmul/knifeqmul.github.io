@@ -9,6 +9,8 @@ permalink: /code/
 ## Code
 
 some notes about the encounter table.
+
+
 | field name           	| description                                                                          	|
 |----------------------	|--------------------------------------------------------------------------------------	|
 | encntr_type_cd       	| Inpatient or outpatient encounter type                                               	|
