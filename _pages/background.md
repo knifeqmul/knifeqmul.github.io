@@ -23,6 +23,7 @@ For full details see [here]({{ site.baseurl }}/downloads/Turing-proposal-marsh-4
 
 
 ### Database
+Some tables in the database:
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -66,6 +67,7 @@ For full details see [here]({{ site.baseurl }}/downloads/Turing-proposal-marsh-4
 </table>
 
 
+Some notes about the **encounter** table.
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;border-color:#bbb;}
