@@ -67,35 +67,34 @@ For full details see [here]({{ site.baseurl }}/downloads/Turing-proposal-marsh-4
 
 
 
-
 <style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg .tg-uqai{font-weight:bold;background-color:#ffffc7;text-align:center}
-.tg .tg-5ua9{font-weight:bold;text-align:left}
-.tg .tg-s268{text-align:left}
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#bbb;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#bbb;color:#594F4F;background-color:#E0FFEB;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#bbb;color:#493F3F;background-color:#9DE0AD;}
+.tg .tg-v51t{font-weight:bold;background-color:#ecf4ff;border-color:#000000;text-align:center}
+.tg .tg-q0fn{font-weight:bold;background-color:#ffffff;border-color:#000000;text-align:left}
+.tg .tg-2pcy{background-color:#ffffff;border-color:#000000;text-align:left}
 </style>
 <table class="tg">
   <tr>
-    <th class="tg-uqai">field name</th>
-    <th class="tg-uqai">description</th>
+    <th class="tg-v51t">field name</th>
+    <th class="tg-v51t">description of <span style="font-weight:700">table encounter</span></th>
   </tr>
   <tr>
-    <td class="tg-5ua9">encntr_type_cd</td>
-    <td class="tg-s268">Inpatient or outpatient encounter type</td>
+    <td class="tg-q0fn">encntr_type_cd</td>
+    <td class="tg-2pcy">Inpatient or outpatient encounter type</td>
   </tr>
   <tr>
-    <td class="tg-5ua9">encntr_type_class_cd</td>
-    <td class="tg-s268">classifies patients into more general groups such as emergency, recurring outpatient</td>
+    <td class="tg-q0fn">encntr_type_class_cd</td>
+    <td class="tg-2pcy">classifies patients into more general groups such as emergency, recurring outpatient</td>
   </tr>
   <tr>
-    <td class="tg-5ua9">reg_dt_tm</td>
-    <td class="tg-s268">the registered or admitted date of the patient</td>
+    <td class="tg-q0fn">reg_dt_tm</td>
+    <td class="tg-2pcy">the registered or admitted date of the patient</td>
   </tr>
   <tr>
-    <td class="tg-5ua9">active_ind</td>
-    <td class="tg-s268">1 means the patient is active, 0 means the patiend has discharged</td>
+    <td class="tg-q0fn">active_ind</td>
+    <td class="tg-2pcy">1 means the patient is active, 0 means the patiend has discharged</td>
   </tr>
 </table>
 
