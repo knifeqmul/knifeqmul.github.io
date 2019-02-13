@@ -53,7 +53,7 @@ Some tables in the database:
   </tr>
   <tr>
     <td class="tg-v47y">diagnosis and nomenclature</td>
-    <td class="tg-qtf5">keep various classifications like Snomed and ICD-10 can be tied to an encounter</td>
+    <td class="tg-qtf5">keep various classifications like SNOMED CT and ICD-10 can be tied to an encounter</td>
   </tr>
   <tr>
     <td class="tg-mcqj">pathway</td>
