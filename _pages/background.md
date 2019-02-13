@@ -28,40 +28,40 @@ Some tables in the database:
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-3dpa{font-weight:bold;background-color:#ecf4ff;text-align:center}
-.tg .tg-5ua9{font-weight:bold;text-align:left}
-.tg .tg-s268{text-align:left}
-.tg .tg-0lax{text-align:left;vertical-align:top}
+.tg .tg-qtf5{border-color:#000000;text-align:left}
+.tg .tg-v51t{font-weight:bold;background-color:#ecf4ff;border-color:#000000;text-align:center}
+.tg .tg-v47y{font-weight:bold;border-color:#000000;text-align:left}
+.tg .tg-mcqj{font-weight:bold;border-color:#000000;text-align:left;vertical-align:top}
+.tg .tg-73oq{border-color:#000000;text-align:left;vertical-align:top}
 </style>
 <table class="tg">
   <tr>
-    <th class="tg-3dpa">table</th>
-    <th class="tg-3dpa">description</th>
+    <th class="tg-v51t">table</th>
+    <th class="tg-v51t">description</th>
   </tr>
   <tr>
-    <td class="tg-5ua9">person</td>
-    <td class="tg-s268">links to personal information, including name, GP, address, and other information</td>
+    <td class="tg-v47y">person</td>
+    <td class="tg-qtf5">links to personal information, including name, GP, address, and other information</td>
   </tr>
   <tr>
-    <td class="tg-5ua9">person_prsnl_reltn</td>
-    <td class="tg-s268">patient's person relation, such as the primary care physician of the patient</td>
+    <td class="tg-v47y">person_prsnl_reltn</td>
+    <td class="tg-qtf5">patient's person relation, such as the primary care physician of the patient</td>
   </tr>
   <tr>
-    <td class="tg-5ua9">order</td>
-    <td class="tg-s268">can pull orders, alerts, drugs administration and procedures</td>
+    <td class="tg-v47y">order</td>
+    <td class="tg-qtf5">can pull orders, alerts, drugs administration and procedures</td>
   </tr>
   <tr>
-    <td class="tg-5ua9">diagnosis and nomenclature</td>
-    <td class="tg-s268">keep various classifications like Snomed and ICD-10 can be tied to an encounter</td>
+    <td class="tg-v47y">diagnosis and nomenclature</td>
+    <td class="tg-qtf5">keep various classifications like Snomed and ICD-10 can be tied to an encounter</td>
   </tr>
   <tr>
-    <td class="tg-1wig">pathway</td>
-    <td class="tg-0lax">store details about powerplans. A powerplan pre-prepared group of orders (such as radiology, pathology, laboratory tests, medications, patient care etc) and associated instructions for a specific condition, procedure or element of treatmentfor faster electronic order entry</td>
+    <td class="tg-mcqj">pathway</td>
+    <td class="tg-73oq">store details about powerplans. A powerplan pre-prepared group of orders (such as radiology, pathology, laboratory tests, medications, patient care etc) and associated instructions for a specific condition, procedure or element of treatmentfor faster electronic order entry</td>
   </tr>
   <tr>
-    <td class="tg-1wig">clinical_event</td>
-    <td class="tg-0lax">store patient encounter records per clinic, including information such as vital signs, drugs administration time, and lab results</td>
+    <td class="tg-mcqj">clinical_event</td>
+    <td class="tg-73oq">store patient encounter records per clinic, including information such as vital signs, drugs administration time, and lab results</td>
   </tr>
 </table>
 
@@ -69,33 +69,33 @@ Some tables in the database:
 Some notes about the **encounter** table.
 
 <style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;border-color:#bbb;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#bbb;color:#594F4F;background-color:#E0FFEB;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#bbb;color:#493F3F;background-color:#9DE0AD;}
-.tg .tg-v51t{font-weight:bold;background-color:#ecf4ff;border-color:#000000;text-align:center}
-.tg .tg-q0fn{font-weight:bold;background-color:#ffffff;border-color:#000000;text-align:left}
-.tg .tg-2pcy{background-color:#ffffff;border-color:#000000;text-align:left}
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-3dpa{font-weight:bold;background-color:#ecf4ff;text-align:center}
+.tg .tg-5ua9{font-weight:bold;text-align:left}
+.tg .tg-s268{text-align:left}
 </style>
 <table class="tg">
   <tr>
-    <th class="tg-v51t">field name</th>
-    <th class="tg-v51t">description of <span style="font-weight:700">table encounter</span></th>
+    <th class="tg-3dpa">field name</th>
+    <th class="tg-3dpa">description of table encounter</th>
   </tr>
   <tr>
-    <td class="tg-q0fn">encntr_type_cd</td>
-    <td class="tg-2pcy">Inpatient or outpatient encounter type</td>
+    <td class="tg-5ua9">encntr_type_cd</td>
+    <td class="tg-s268">Inpatient or outpatient encounter type</td>
   </tr>
   <tr>
-    <td class="tg-q0fn">encntr_type_class_cd</td>
-    <td class="tg-2pcy">classifies patients into more general groups such as emergency, recurring outpatient</td>
+    <td class="tg-5ua9">encntr_type_class_cd</td>
+    <td class="tg-s268">classifies patients into more general groups such as emergency, recurring outpatient</td>
   </tr>
   <tr>
-    <td class="tg-q0fn">reg_dt_tm</td>
-    <td class="tg-2pcy">the registered or admitted date of the patient</td>
+    <td class="tg-5ua9">reg_dt_tm</td>
+    <td class="tg-s268">the registered or admitted date of the patient</td>
   </tr>
   <tr>
-    <td class="tg-q0fn">active_ind</td>
-    <td class="tg-2pcy">1 means the patient is active, 0 means the patiend has discharged</td>
+    <td class="tg-5ua9">active_ind</td>
+    <td class="tg-s268">1 means the patient is active, 0 means the patiend has discharged</td>
   </tr>
 </table>
 
