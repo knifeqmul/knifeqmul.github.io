@@ -68,6 +68,37 @@ For full details see [here]({{ site.baseurl }}/downloads/Turing-proposal-marsh-4
 
 
 
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-uqai{font-weight:bold;background-color:#ffffc7;text-align:center}
+.tg .tg-5ua9{font-weight:bold;text-align:left}
+.tg .tg-s268{text-align:left}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-uqai">field name</th>
+    <th class="tg-uqai">description</th>
+  </tr>
+  <tr>
+    <td class="tg-5ua9">encntr_type_cd</td>
+    <td class="tg-s268">Inpatient or outpatient encounter type</td>
+  </tr>
+  <tr>
+    <td class="tg-5ua9">encntr_type_class_cd</td>
+    <td class="tg-s268">classifies patients into more general groups such as emergency, recurring outpatient</td>
+  </tr>
+  <tr>
+    <td class="tg-5ua9">reg_dt_tm</td>
+    <td class="tg-s268">the registered or admitted date of the patient</td>
+  </tr>
+  <tr>
+    <td class="tg-5ua9">active_ind</td>
+    <td class="tg-s268">1 means the patient is active, 0 means the patiend has discharged</td>
+  </tr>
+</table>
+
 
 
 
