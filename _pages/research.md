@@ -7,7 +7,8 @@ permalink: /research/
 ---
 
 
-CCG holds a data repository that links pseudonymised patient level records across health and care settings.
+CCG holds a data repository that links pseudonymised patient level records across health and care settings. The records replaced NHS number with pseudo ID, date of birth with age etc. It is not considered as personal data by law if this is handled in a secure enviroment. 
+
 
 ## Issues
 1. Data is in CCG, while GPs are located in clinics.
