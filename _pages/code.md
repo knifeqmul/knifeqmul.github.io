@@ -24,5 +24,5 @@ permalink: /code/
 
 #### 2. whether has heart disease
 <ol>
-<li>Diabetes-PracticeFusion: https://www.kaggle.com/c/pf2012-diabetes</li>
+<li>Heart Disease UCI: https://www.kaggle.com/ronitf/heart-disease-uci</li>
 </ol>
