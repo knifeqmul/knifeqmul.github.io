@@ -104,21 +104,20 @@ Some notes about the **encounter** table.
 
 Classification schema when recording relevant medical information and events. These codes can vary between institutions, and maintained by resources like Systemized Nomenclature of Medicine - Clinical Terms (SNOMED CT). The following table is from [1]:
 
-
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg .tg-88nc{font-weight:bold;border-color:inherit;text-align:center}
-.tg .tg-7btt{font-weight:bold;border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-2dfk{font-weight:bold;background-color:#ecf4ff;border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-ohmh{font-weight:bold;background-color:#ecf4ff;border-color:inherit;text-align:center}
 .tg .tg-xldj{border-color:inherit;text-align:left}
 .tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
 </style>
 <table class="tg">
   <tr>
-    <th class="tg-88nc">Schema </th>
-    <th class="tg-88nc">Number of Codes</th>
-    <th class="tg-7btt">Examples</th>
+    <th class="tg-ohmh">Schema </th>
+    <th class="tg-ohmh">Number of Codes</th>
+    <th class="tg-2dfk">Examples</th>
   </tr>
   <tr>
     <td class="tg-xldj">ICD-10(Diagnosis)</td>
