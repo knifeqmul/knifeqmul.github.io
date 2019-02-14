@@ -10,10 +10,10 @@ permalink: /code/
 
 ### 1. Diabetes-PracticeFusion: 
 
-https://github.com/knifeqmul/knifeqmul.github.io/tree/master/downloads/Diabetes-PracticeFusion
+
 <ol>
 <li>Source: https://www.kaggle.com/c/pf2012-diabetes</li>
-<li>Dataset: see [here]({{ site.baseurl }}/downloads/Diabetes-PracticeFusion/)</li>
+<li>Dataset: see <a href='https://github.com/knifeqmul/knifeqmul.github.io/tree/master/downloads/Diabetes-PracticeFusion'>[here]</a></li>
 <li>Solution:
 <ol style="list-style-type: lower-alpha; padding-bottom: 0;">
 <li style="margin-left:2em">mapped complicating conditions with their ICD9, together with other features to do feature selection;</li>
