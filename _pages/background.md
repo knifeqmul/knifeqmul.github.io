@@ -53,7 +53,7 @@ Some tables in the database:
   </tr>
   <tr>
     <td class="tg-v47y">diagnosis and nomenclature</td>
-    <td class="tg-qtf5">keep various classifications like SNOMED CT and ICD-10 can be tied to an encounter</td>
+    <td class="tg-qtf5">keep various classifications like ICD-10 can be tied to an encounter</td>
   </tr>
   <tr>
     <td class="tg-mcqj">pathway</td>
@@ -100,7 +100,50 @@ Some notes about the **encounter** table.
 
 
 
+### Classification schema
 
+Classification schema when recording relevant medical information and events. These codes can vary between institutions, and maintained by resources like Systemized Nomenclature of Medicine - Clinical Terms (SNOMED CT). The following table is from [1]:
+
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-88nc{font-weight:bold;border-color:inherit;text-align:center}
+.tg .tg-7btt{font-weight:bold;border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-xldj{border-color:inherit;text-align:left}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-88nc">Schema </th>
+    <th class="tg-88nc">Number of Codes</th>
+    <th class="tg-7btt">Examples</th>
+  </tr>
+  <tr>
+    <td class="tg-xldj">ICD-10(Diagnosis)</td>
+    <td class="tg-xldj">68,000</td>
+    <td class="tg-0pky">- J9600: Acute respiratory failure<br>- I509: Heart failure<br>- I5020: Systolic heart failure</td>
+  </tr>
+  <tr>
+    <td class="tg-xldj">CPT(Procedures)</td>
+    <td class="tg-xldj">9,641</td>
+    <td class="tg-0pky">- 72146: MRI Thoracic Spine<br>- 67810: Eyelid skin biopsy<br>- 19301: Partial mastectomy<br></td>
+  </tr>
+  <tr>
+    <td class="tg-xldj">LOINC(Laboratory)</td>
+    <td class="tg-xldj">80,868</td>
+    <td class="tg-0pky">- 4024-6: Salicylate, Serum<br>- 56478-1: Ethanol, Blood<br><br>- 3414-0: Buprenorphine Screen<br></td>
+  </tr>
+  <tr>
+    <td class="tg-xldj">RxNorm(Medications)</td>
+    <td class="tg-xldj">116,075</td>
+    <td class="tg-0pky">- 161: Acetaminophen<br>- 7052: Morphine<br>- 1819: Buprenorphine</td>
+  </tr>
+</table>
+
+
+[1] Shickel, B., Tighe, P. J., Bihorac, A., & Rashidi, P. (2018). Deep EHR: a survey of recent advances in deep learning techniques for electronic health record (EHR) analysis. IEEE journal of biomedical and health informatics, 22(5), 1589-1604.
 
 
 
