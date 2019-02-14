@@ -9,15 +9,7 @@ permalink: /code/
 ## Code
 
 ### 1. Diabetes-PracticeFusion: 
-<oi>
-<li> </li>
-<li> </li>
-<li> Solution:<ui>
-<li> </li>
-<li>  </li>
-<li> </li>
-  </ui></li>
-</oi>
+
 
 <ol>
 <li>Source: https://www.kaggle.com/c/pf2012-diabetes</li>
