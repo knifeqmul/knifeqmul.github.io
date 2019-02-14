@@ -9,7 +9,7 @@ permalink: /code/
 ## Code
 
 ### Classfication
-#### 1. whether has diabetes
+#### 1. has diabetes
 <ol>
 <li>Diabetes-PracticeFusion: https://www.kaggle.com/c/pf2012-diabetes</li>
 <li>Dataset: see <a href='https://github.com/knifeqmul/knifeqmul.github.io/tree/master/downloads/Diabetes-PracticeFusion'>[here]</a></li>
@@ -22,7 +22,13 @@ permalink: /code/
 </li>
 </ol>
 
-#### 2. whether has heart disease
+#### 2. has heart disease
 <ol>
 <li>Heart Disease UCI: https://www.kaggle.com/ronitf/heart-disease-uci</li>
 </ol>
+
+#### 3. medical appointment no shows
+<ol>
+<li>Medical Appointment No Shows: https://www.kaggle.com/joniarroba/noshowappointments</li>
+</ol>
+
