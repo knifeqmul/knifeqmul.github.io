@@ -11,6 +11,9 @@ permalink: /code/
 ### 1. Diabetes-PracticeFusion: 
 - Source: https://www.kaggle.com/c/pf2012-diabetes
 - Dataset: see [here]({{ site.baseurl }}/downloads/Diabetes-PracticeFusion/)
-- Map complicating conditions with their ICD9, together with other features to do feature selection; grouped by features; boosted tree for classfication.
+- Solution:
+<li>mapped complicating conditions with their ICD9, together with other features to do feature selection;<\li>
+  <li>grouped by features; <\li>
+    <li>built boosted trees for each group, and validated each group's model as a classfication problem (whether the patient has diabetes).<\li>
 
 
