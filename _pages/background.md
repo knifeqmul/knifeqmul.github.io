@@ -102,7 +102,7 @@ Some notes about the **encounter** table.
 
 ### Classification schema
 
-Classification schema when recording relevant medical information and events. These codes can vary between institutions, and maintained by resources like Systemized Nomenclature of Medicine - Clinical Terms (SNOMED CT). The following table is from [1]:
+Classification schema when recording relevant medical information and events. These codes can vary between institutions, and maintained by resources like Systemized Nomenclature of Medicine - Clinical Terms (SNOMED CT) or READ codes (see <a href="http://www.gp-training.net/it/synergy_archive/synergy/readcode.htm">[here]</a>). The following table is from [1]:
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
