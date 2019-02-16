@@ -102,7 +102,7 @@ Some notes about the **encounter** table.
 
 ### Classification schema
 
-Classification schema when recording relevant medical information and events. These codes can vary between institutions, and maintained by resources like Systemized Nomenclature of Medicine - Clinical Terms (SNOMED CT) or READ codes (see <a href="http://www.gp-training.net/it/synergy_archive/synergy/readcode.htm">[here]</a>). The following table is from [1]:
+Classification schema when recording relevant medical information and events. These codes can vary between institutions, and maintained by terminology like Systemized Nomenclature of Medicine - Clinical Terms (SNOMED CT) or READ codes (see <a href="http://www.gp-training.net/it/synergy_archive/synergy/readcode.htm">[here]</a>). The following table is from [1]:
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -139,17 +139,18 @@ Classification schema when recording relevant medical information and events. Th
     <td class="tg-xldj">116,075</td>
     <td class="tg-0pky">- 161: Acetaminophen<br>- 7052: Morphine<br>- 1819: Buprenorphine</td>
   </tr>
+  
 </table>
 
 
 [1] Shickel, B., Tighe, P. J., Bihorac, A., & Rashidi, P. (2018). Deep EHR: a survey of recent advances in deep learning techniques for electronic health record (EHR) analysis. IEEE journal of biomedical and health informatics, 22(5), 1589-1604.
 
-### Read Codes
+### Terminology
 
-For full details see [here]({{ site.baseurl }}/downloads/readcodehier.pdf).
+SNOMED CT and READ codes are terminology designed for use in electronic health records. Details of Read codes see [here]({{ site.baseurl }}/downloads/readcodehier.pdf).
 
 
-#### Read Code - Process of Care
+#### 1.Read Code - Process of Care
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
@@ -198,7 +199,7 @@ For full details see [here]({{ site.baseurl }}/downloads/readcodehier.pdf).
 
 
 
-#### Read Code - Diagnoses
+#### 2.Read Code - Diagnoses
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
@@ -278,7 +279,7 @@ For full details see [here]({{ site.baseurl }}/downloads/readcodehier.pdf).
 </table>
 
 
-#### Read Code - How they are orgnasied
+#### 3.Read Code - How they are orgnasied
 Within the chapters, terms are organised hierarchically, the higher up the hierarchy the less specific the codes. Full stops are used as ‘padding’ characters to ensure that all codes contain 5 characters. For example:
 
 <style type="text/css">
@@ -310,7 +311,7 @@ Within the chapters, terms are organised hierarchically, the higher up the hiera
 <figure class="center"> <img src="{{ site.url }}{{ site.baseurl }}/images/background/read_hier.png" style="width: 450px" align="middle">
 
 
-#### Issues
+#### 4.Issues
 1. 'On browsing it was noted that depression was entered under different code stems. For example, Read codes for mental disorders began with the stem ‘E’; however, relevant codes were also found under ‘signs and symptoms’ with the stem ‘R’ or under examination with the stem ‘2’. The most common code stems were noted' - Creating medical and drug code lists to identify cases in primary care databases.
 
 
