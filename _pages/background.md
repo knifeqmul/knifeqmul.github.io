@@ -147,7 +147,7 @@ Classification schema when recording relevant medical information and events. Th
 
 ### Terminology
 
-SNOMED CT and READ codes are terminology designed for use in electronic health records. Details of Read codes see [here]({{ site.baseurl }}/downloads/readcodehier.pdf).
+SNOMED CT and READ codes are terminology designed for use in electronic health records. A more detailed introduction of Read codes see [here]({{ site.baseurl }}/downloads/readcodehier.pdf), a list of codes can be found [here]({{ site.baseurl }}/downloads/acc6343-read-codes.xls).
 
 
 #### 1.Read Code - Process of Care
