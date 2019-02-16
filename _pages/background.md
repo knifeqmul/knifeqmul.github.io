@@ -145,8 +145,57 @@ Classification schema when recording relevant medical information and events. Th
 [1] Shickel, B., Tighe, P. J., Bihorac, A., & Rashidi, P. (2018). Deep EHR: a survey of recent advances in deep learning techniques for electronic health record (EHR) analysis. IEEE journal of biomedical and health informatics, 22(5), 1589-1604.
 
 ### Read Codes
+
+
 'On browsing it was noted that depression was entered under different code stems. For example, Read codes for mental disorders
 began with the stem ‘E’; however, relevant codes were also found under ‘signs and symptoms’ with the stem ‘R’ or under examination with the stem ‘2’. The most common code stems were noted' - Creating medical and drug code lists to identify cases in primary care databases.
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-hgcj{font-weight:bold;text-align:center}
+.tg .tg-5ua9{font-weight:bold;text-align:left}
+.tg .tg-s268{text-align:left}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-hgcj" colspan="4">Process of Care</th>
+  </tr>
+  <tr>
+    <td class="tg-5ua9">0<br></td>
+    <td class="tg-s268">Occupations</td>
+    <td class="tg-5ua9">5</td>
+    <td class="tg-s268">Radiology</td>
+  </tr>
+  <tr>
+    <td class="tg-5ua9">1</td>
+    <td class="tg-s268">History and Symptoms</td>
+    <td class="tg-5ua9">6</td>
+    <td class="tg-s268">Preventative Procedures</td>
+  </tr>
+  <tr>
+    <td class="tg-5ua9">2</td>
+    <td class="tg-s268">Examinations and Signs</td>
+    <td class="tg-5ua9">7</td>
+    <td class="tg-s268">Operative Procedures</td>
+  </tr>
+  <tr>
+    <td class="tg-1wig">3</td>
+    <td class="tg-0lax">Diagnostic Procedures</td>
+    <td class="tg-1wig">8</td>
+    <td class="tg-0lax">Other Therapeutic Procedures</td>
+  </tr>
+  <tr>
+    <td class="tg-1wig">4</td>
+    <td class="tg-0lax">Laboratory Procedures</td>
+    <td class="tg-1wig">9</td>
+    <td class="tg-0lax">Administration</td>
+  </tr>
+</table>
+
+
 
 ### Glossary
 **CCGs** - <a href='https://www.nhscc.org/ccgs/'>Clinical Commission Groups</a> commission most of the hospital and community NHS services in the local areas for which they are responsible. Commissioning involves deciding what services are needed for diverse local populations, and ensuring that they are provided.
