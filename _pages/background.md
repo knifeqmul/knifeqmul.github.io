@@ -195,7 +195,83 @@ began with the stem ‘E’; however, relevant codes were also found under ‘si
   </tr>
 </table>
 
-
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-uril{color:#000000;border-color:#000000;text-align:left}
+.tg .tg-h8n2{font-weight:bold;color:#000000;border-color:#000000;text-align:left}
+.tg .tg-4yk5{font-weight:bold;background-color:#ecf4ff;color:#000000;border-color:#000000;text-align:center}
+.tg .tg-8fiv{font-weight:bold;color:#000000;border-color:#000000;text-align:left;vertical-align:top}
+.tg .tg-pjk6{color:#000000;border-color:#000000;text-align:left;vertical-align:top}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-4yk5" colspan="4">Diagnoses</th>
+  </tr>
+  <tr>
+    <td class="tg-h8n2">A</td>
+    <td class="tg-uril">Infectious and,Parasitic Diseases</td>
+    <td class="tg-h8n2">L</td>
+    <td class="tg-uril">Pregnancy, Childbirth etc</td>
+  </tr>
+  <tr>
+    <td class="tg-h8n2">B</td>
+    <td class="tg-uril">Neoplasms</td>
+    <td class="tg-h8n2">M</td>
+    <td class="tg-uril">Skin &amp; Subcutaneous Tissue Diseases</td>
+  </tr>
+  <tr>
+    <td class="tg-h8n2">C</td>
+    <td class="tg-uril">Endocrine,,Nutrition and Metabolic Disorders</td>
+    <td class="tg-h8n2">N</td>
+    <td class="tg-uril">Musculoskeletal &amp; Connective Tissue Diseases</td>
+  </tr>
+  <tr>
+    <td class="tg-8fiv">D</td>
+    <td class="tg-pjk6">Blood and,Blood-forming Organs</td>
+    <td class="tg-8fiv">P</td>
+    <td class="tg-pjk6">Congenital Anomalies</td>
+  </tr>
+  <tr>
+    <td class="tg-8fiv">E</td>
+    <td class="tg-pjk6">Mental Disorders</td>
+    <td class="tg-8fiv">Q</td>
+    <td class="tg-pjk6">Perinatal Conditions</td>
+  </tr>
+  <tr>
+    <td class="tg-1wig">F</td>
+    <td class="tg-0lax">Nervous System,&amp; Sense Organs Diseases</td>
+    <td class="tg-1wig">R</td>
+    <td class="tg-0lax">Symptoms, Signs and Ill-defined conditions</td>
+  </tr>
+  <tr>
+    <td class="tg-1wig">G</td>
+    <td class="tg-0lax">Circulatory System,Disorders</td>
+    <td class="tg-1wig">S</td>
+    <td class="tg-0lax">Injury and Poisoning</td>
+  </tr>
+  <tr>
+    <td class="tg-1wig">H</td>
+    <td class="tg-0lax">Respiratory System,Diseases<br></td>
+    <td class="tg-1wig">T</td>
+    <td class="tg-0lax">Cause of Injury and Poisoning</td>
+  </tr>
+  <tr>
+    <td class="tg-1wig">J</td>
+    <td class="tg-0lax">Digestive System,Diseases</td>
+    <td class="tg-1wig">U</td>
+    <td class="tg-0lax">[X] External Causes of Morbidity and Mortality</td>
+  </tr>
+  <tr>
+    <td class="tg-1wig">K</td>
+    <td class="tg-0lax">Genitourinary,System Diseases</td>
+    <td class="tg-1wig">Z</td>
+    <td class="tg-0lax">[V] Supplementary Factors Influencing Health Status or Contact with<br>Health Services other than for Illness</td>
+  </tr>
+</table>
 
 ### Glossary
 **CCGs** - <a href='https://www.nhscc.org/ccgs/'>Clinical Commission Groups</a> commission most of the hospital and community NHS services in the local areas for which they are responsible. Commissioning involves deciding what services are needed for diverse local populations, and ensuring that they are provided.
