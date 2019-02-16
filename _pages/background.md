@@ -149,6 +149,8 @@ Classification schema when recording relevant medical information and events. Th
 
 'On browsing it was noted that depression was entered under different code stems. For example, Read codes for mental disorders
 began with the stem ‘E’; however, relevant codes were also found under ‘signs and symptoms’ with the stem ‘R’ or under examination with the stem ‘2’. The most common code stems were noted' - Creating medical and drug code lists to identify cases in primary care databases.
+
+#### Read Code - Process of Care
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
@@ -197,7 +199,7 @@ began with the stem ‘E’; however, relevant codes were also found under ‘si
 
 
 
-
+#### Read Code - Diagnoses
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
@@ -275,6 +277,38 @@ began with the stem ‘E’; however, relevant codes were also found under ‘si
     <td class="tg-on52">[V] Supplementary factors influencing health status or contact with the Health services other than for illness</td>
   </tr>
 </table>
+
+
+#### Read Code - How they are orgnasied
+Within the chapters, terms are organised hierarchically, the higher up the hierarchy the less specific the codes. Full stops are used as ‘padding’ characters to ensure that all codes contain 5 characters. For example:
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-qtf5{border-color:#000000;text-align:left}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-qtf5">1…..</th>
+    <th class="tg-qtf5">History / symptoms</th>
+  </tr>
+  <tr>
+    <td class="tg-qtf5">17…</td>
+    <td class="tg-qtf5">Respiratory symptoms</td>
+  </tr>
+  <tr>
+    <td class="tg-qtf5">171..</td>
+    <td class="tg-qtf5">Cough</td>
+  </tr>
+  <tr>
+    <td class="tg-qtf5">1714</td>
+    <td class="tg-qtf5">Productive cough -green sputum</td>
+  </tr>
+</table>
+
+
+
 
 ### Glossary
 **CCGs** - <a href='https://www.nhscc.org/ccgs/'>Clinical Commission Groups</a> commission most of the hospital and community NHS services in the local areas for which they are responsible. Commissioning involves deciding what services are needed for diverse local populations, and ensuring that they are provided.
