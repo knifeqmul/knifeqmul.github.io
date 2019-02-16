@@ -269,7 +269,8 @@ began with the stem ‘E’; however, relevant codes were also found under ‘si
     <td class="tg-1wig">K</td>
     <td class="tg-0lax">Genitourinary,System Diseases</td>
     <td class="tg-1wig">Z</td>
-    <td class="tg-0lax">[V] Supplementary Factors Influencing Health Status or Contact with<br>Health Services other than for Illness</td>
+    <td class="tg-0lax">[V] This chapter is for completeness and links to ICD-10 – the coding system used mostly in secondary care. It contains terms to record "Supplementary factors influencing health status or contact with the Health
+services other than for illness". In general its usefulness in general practice is limited.Supplementary Factors Influencing Health Status or Contact witH Health Services other than for Illness</td>
   </tr>
 </table>
 
