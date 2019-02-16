@@ -153,45 +153,45 @@ began with the stem ‘E’; however, relevant codes were also found under ‘si
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-hgcj{font-weight:bold;text-align:center}
-.tg .tg-5ua9{font-weight:bold;text-align:left}
-.tg .tg-s268{text-align:left}
-.tg .tg-0lax{text-align:left;vertical-align:top}
+.tg .tg-uril{color:#000000;border-color:#000000;text-align:left}
+.tg .tg-h8n2{font-weight:bold;color:#000000;border-color:#000000;text-align:left}
+.tg .tg-4yk5{font-weight:bold;background-color:#ecf4ff;color:#000000;border-color:#000000;text-align:center}
+.tg .tg-8fiv{font-weight:bold;color:#000000;border-color:#000000;text-align:left;vertical-align:top}
+.tg .tg-pjk6{color:#000000;border-color:#000000;text-align:left;vertical-align:top}
 </style>
 <table class="tg">
   <tr>
-    <th class="tg-hgcj" colspan="4">Process of Care</th>
+    <th class="tg-4yk5" colspan="4">Process of Care</th>
   </tr>
   <tr>
-    <td class="tg-5ua9">0<br></td>
-    <td class="tg-s268">Occupations</td>
-    <td class="tg-5ua9">5</td>
-    <td class="tg-s268">Radiology</td>
+    <td class="tg-h8n2">0<br></td>
+    <td class="tg-uril">Occupations</td>
+    <td class="tg-h8n2">5</td>
+    <td class="tg-uril">Radiology</td>
   </tr>
   <tr>
-    <td class="tg-5ua9">1</td>
-    <td class="tg-s268">History and Symptoms</td>
-    <td class="tg-5ua9">6</td>
-    <td class="tg-s268">Preventative Procedures</td>
+    <td class="tg-h8n2">1</td>
+    <td class="tg-uril">History and Symptoms</td>
+    <td class="tg-h8n2">6</td>
+    <td class="tg-uril">Preventative Procedures</td>
   </tr>
   <tr>
-    <td class="tg-5ua9">2</td>
-    <td class="tg-s268">Examinations and Signs</td>
-    <td class="tg-5ua9">7</td>
-    <td class="tg-s268">Operative Procedures</td>
+    <td class="tg-h8n2">2</td>
+    <td class="tg-uril">Examinations and Signs</td>
+    <td class="tg-h8n2">7</td>
+    <td class="tg-uril">Operative Procedures</td>
   </tr>
   <tr>
-    <td class="tg-1wig">3</td>
-    <td class="tg-0lax">Diagnostic Procedures</td>
-    <td class="tg-1wig">8</td>
-    <td class="tg-0lax">Other Therapeutic Procedures</td>
+    <td class="tg-8fiv">3</td>
+    <td class="tg-pjk6">Diagnostic Procedures</td>
+    <td class="tg-8fiv">8</td>
+    <td class="tg-pjk6">Other Therapeutic Procedures</td>
   </tr>
   <tr>
-    <td class="tg-1wig">4</td>
-    <td class="tg-0lax">Laboratory Procedures</td>
-    <td class="tg-1wig">9</td>
-    <td class="tg-0lax">Administration</td>
+    <td class="tg-8fiv">4</td>
+    <td class="tg-pjk6">Laboratory Procedures</td>
+    <td class="tg-8fiv">9</td>
+    <td class="tg-pjk6">Administration</td>
   </tr>
 </table>
 
