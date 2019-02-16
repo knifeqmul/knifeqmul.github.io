@@ -195,82 +195,84 @@ began with the stem ‘E’; however, relevant codes were also found under ‘si
   </tr>
 </table>
 
+
+
+
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
 .tg .tg-uril{color:#000000;border-color:#000000;text-align:left}
 .tg .tg-h8n2{font-weight:bold;color:#000000;border-color:#000000;text-align:left}
 .tg .tg-4yk5{font-weight:bold;background-color:#ecf4ff;color:#000000;border-color:#000000;text-align:center}
-.tg .tg-8fiv{font-weight:bold;color:#000000;border-color:#000000;text-align:left;vertical-align:top}
-.tg .tg-pjk6{color:#000000;border-color:#000000;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
+.tg .tg-q4o2{font-weight:bold;color:#333333;border-color:#000000;text-align:left}
+.tg .tg-clsj{color:#333333;border-color:#000000;text-align:left}
+.tg .tg-7j3r{font-weight:bold;color:#333333;border-color:#000000;text-align:left;vertical-align:top}
+.tg .tg-on52{color:#333333;border-color:#000000;text-align:left;vertical-align:top}
 </style>
 <table class="tg">
   <tr>
     <th class="tg-4yk5" colspan="4">Diagnoses</th>
   </tr>
   <tr>
-    <td class="tg-h8n2">A</td>
+    <td class="tg-q4o2">A</td>
     <td class="tg-uril">Infectious and,Parasitic Diseases</td>
     <td class="tg-h8n2">L</td>
     <td class="tg-uril">Pregnancy, Childbirth etc</td>
   </tr>
   <tr>
-    <td class="tg-h8n2">B</td>
-    <td class="tg-uril">Neoplasms</td>
-    <td class="tg-h8n2">M</td>
-    <td class="tg-uril">Skin &amp; Subcutaneous Tissue Diseases</td>
+    <td class="tg-q4o2">B</td>
+    <td class="tg-clsj">Neoplasms</td>
+    <td class="tg-q4o2">M</td>
+    <td class="tg-clsj">Skin &amp; Subcutaneous Tissue Diseases</td>
   </tr>
   <tr>
-    <td class="tg-h8n2">C</td>
-    <td class="tg-uril">Endocrine,,Nutrition and Metabolic Disorders</td>
-    <td class="tg-h8n2">N</td>
-    <td class="tg-uril">Musculoskeletal &amp; Connective Tissue Diseases</td>
+    <td class="tg-q4o2">C</td>
+    <td class="tg-clsj">Endocrine,,Nutrition and Metabolic Disorders</td>
+    <td class="tg-q4o2">N</td>
+    <td class="tg-clsj">Musculoskeletal &amp; Connective Tissue Diseases</td>
   </tr>
   <tr>
-    <td class="tg-8fiv">D</td>
-    <td class="tg-pjk6">Blood and,Blood-forming Organs</td>
-    <td class="tg-8fiv">P</td>
-    <td class="tg-pjk6">Congenital Anomalies</td>
+    <td class="tg-7j3r">D</td>
+    <td class="tg-on52">Blood and,Blood-forming Organs</td>
+    <td class="tg-7j3r">P</td>
+    <td class="tg-on52">Congenital Anomalies</td>
   </tr>
   <tr>
-    <td class="tg-8fiv">E</td>
-    <td class="tg-pjk6">Mental Disorders</td>
-    <td class="tg-8fiv">Q</td>
-    <td class="tg-pjk6">Perinatal Conditions</td>
+    <td class="tg-7j3r">E</td>
+    <td class="tg-on52">Mental Disorders</td>
+    <td class="tg-7j3r">Q</td>
+    <td class="tg-on52">Perinatal Conditions</td>
   </tr>
   <tr>
-    <td class="tg-1wig">F</td>
-    <td class="tg-0lax">Nervous System,&amp; Sense Organs Diseases</td>
-    <td class="tg-1wig">R</td>
-    <td class="tg-0lax">Symptoms, Signs and Ill-defined conditions</td>
+    <td class="tg-7j3r">F</td>
+    <td class="tg-on52">Nervous System,&amp; Sense Organs Diseases</td>
+    <td class="tg-7j3r">R</td>
+    <td class="tg-on52">Symptoms, Signs and Ill-defined conditions</td>
   </tr>
   <tr>
-    <td class="tg-1wig">G</td>
-    <td class="tg-0lax">Circulatory System,Disorders</td>
-    <td class="tg-1wig">S</td>
-    <td class="tg-0lax">Injury and Poisoning</td>
+    <td class="tg-7j3r">G</td>
+    <td class="tg-on52">Circulatory System,Disorders</td>
+    <td class="tg-7j3r">S</td>
+    <td class="tg-on52">Injury and Poisoning</td>
   </tr>
   <tr>
-    <td class="tg-1wig">H</td>
-    <td class="tg-0lax">Respiratory System,Diseases<br></td>
-    <td class="tg-1wig">T</td>
-    <td class="tg-0lax">Cause of Injury and Poisoning</td>
+    <td class="tg-7j3r">H</td>
+    <td class="tg-on52">Respiratory System,Diseases<br></td>
+    <td class="tg-7j3r">T</td>
+    <td class="tg-on52">Cause of Injury and Poisoning</td>
   </tr>
   <tr>
-    <td class="tg-1wig">J</td>
-    <td class="tg-0lax">Digestive System,Diseases</td>
-    <td class="tg-1wig">U</td>
-    <td class="tg-0lax">[X] External Causes of Morbidity and Mortality</td>
+    <td class="tg-7j3r">J</td>
+    <td class="tg-on52">Digestive System,Diseases</td>
+    <td class="tg-7j3r">U</td>
+    <td class="tg-on52">[X] External Causes of Morbidity and Mortality</td>
   </tr>
   <tr>
-    <td class="tg-1wig">K</td>
-    <td class="tg-0lax">Genitourinary,System Diseases</td>
-    <td class="tg-1wig">Z</td>
-    <td class="tg-0lax">[V] This chapter is for completeness and links to ICD-10 – the coding system used mostly in secondary care. It contains terms to record "Supplementary factors influencing health status or contact with the Health
-services other than for illness". In general its usefulness in general practice is limited.Supplementary Factors Influencing Health Status or Contact witH Health Services other than for Illness</td>
+    <td class="tg-7j3r">K</td>
+    <td class="tg-on52">Genitourinary,System Diseases</td>
+    <td class="tg-7j3r">Z</td>
+    <td class="tg-on52">[V] This chapter is for completeness and links to ICD-10 – the coding system used mostly in secondary care. It contains terms to record "Supplementary factors influencing health status or contact with the Health services other than for illness</td>
   </tr>
 </table>
 
