@@ -146,9 +146,8 @@ Classification schema when recording relevant medical information and events. Th
 
 ### Read Codes
 
+For full details see [here]({{ site.baseurl }}/downloads/readcodehier.pdf).
 
-'On browsing it was noted that depression was entered under different code stems. For example, Read codes for mental disorders
-began with the stem ‘E’; however, relevant codes were also found under ‘signs and symptoms’ with the stem ‘R’ or under examination with the stem ‘2’. The most common code stems were noted' - Creating medical and drug code lists to identify cases in primary care databases.
 
 #### Read Code - Process of Care
 <style type="text/css">
@@ -306,6 +305,13 @@ Within the chapters, terms are organised hierarchically, the higher up the hiera
     <td class="tg-qtf5">Productive cough -green sputum</td>
   </tr>
 </table>
+
+
+<figure class="center"> <img src="{{ site.url }}{{ site.baseurl }}/images/background/read_hier.png" style="width: 450px" align="middle">
+
+
+#### Issues
+1. 'On browsing it was noted that depression was entered under different code stems. For example, Read codes for mental disorders began with the stem ‘E’; however, relevant codes were also found under ‘signs and symptoms’ with the stem ‘R’ or under examination with the stem ‘2’. The most common code stems were noted' - Creating medical and drug code lists to identify cases in primary care databases.
 
 
 
