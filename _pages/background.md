@@ -8,13 +8,13 @@ permalink: /background/
 
 
 
+#### **1. Data origins**
 
-### Data origins
 <figure class="center"> <img src="{{ site.url }}{{ site.baseurl }}/images/background/databases.png" style="width: 450px" align="middle">
 
 
+#### **2. Database**
 
-### Database
 Some tables in the database:
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -91,8 +91,7 @@ Some notes about the **encounter** table.
 </table>
 
 
-
-### Classification schema
+#### **3. Classification Schema**
 
 Classification schema when recording relevant medical information and events. These codes can vary between institutions, and maintained by terminology like Systemized Nomenclature of Medicine - Clinical Terms (SNOMED CT) or READ codes (see <a href="http://www.gp-training.net/it/synergy_archive/synergy/readcode.htm">[here]</a>). The following table is from [1]:
 
@@ -137,12 +136,13 @@ Classification schema when recording relevant medical information and events. Th
 
 [1] Shickel, B., Tighe, P. J., Bihorac, A., & Rashidi, P. (2018). Deep EHR: a survey of recent advances in deep learning techniques for electronic health record (EHR) analysis. IEEE journal of biomedical and health informatics, 22(5), 1589-1604.
 
-### Terminology
+
+#### **4. Terminology**
 
 SNOMED CT and READ codes are terminology designed for use in electronic health records. A more detailed introduction of Read codes see [here]({{ site.baseurl }}/downloads/readcodehier.pdf), a list of codes can be found [here]({{ site.baseurl }}/downloads/acc6343-read-codes.xls).
 
 
-#### 1.Read Code - Process of Care
+##### **4.1. Read Code - Process of Care**
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
@@ -191,7 +191,7 @@ SNOMED CT and READ codes are terminology designed for use in electronic health r
 
 
 
-#### 2.Read Code - Diagnoses
+##### **4.2. Read Code - Diagnoses**
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
@@ -271,7 +271,8 @@ SNOMED CT and READ codes are terminology designed for use in electronic health r
 </table>
 
 
-#### 3.Read Code - How they are orgnasied
+
+##### **4.3. Read Code - How they are orgnasied**
 Within the chapters, terms are organised hierarchically, the higher up the hierarchy the less specific the codes. Full stops are used as ‘padding’ characters to ensure that all codes contain 5 characters. For example:
 
 <style type="text/css">
@@ -302,14 +303,12 @@ Within the chapters, terms are organised hierarchically, the higher up the hiera
 
 <figure class="center"> <img src="{{ site.url }}{{ site.baseurl }}/images/background/read_hier.png" style="width: 450px" align="middle">
 
-
-#### 4.Issues
+##### **4.4. Issues**
 1. 'On browsing it was noted that depression was entered under different code stems. For example, Read codes for mental disorders began with the stem ‘E’; however, relevant codes were also found under ‘signs and symptoms’ with the stem ‘R’ or under examination with the stem ‘2’. The most common code stems were noted' - Creating medical and drug code lists to identify cases in primary care databases.
 
 
+#### **5. Glossary**
 
-
-### Glossary
 **CCGs** - <a href='https://www.nhscc.org/ccgs/'>Clinical Commission Groups</a> commission most of the hospital and community NHS services in the local areas for which they are responsible. Commissioning involves deciding what services are needed for diverse local populations, and ensuring that they are provided.
 
 **CRS** - Clinical Record System or Care Records Service?
