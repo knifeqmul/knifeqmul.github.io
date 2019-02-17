@@ -16,9 +16,9 @@ permalink: /research/
 
 #### 2. Current applications
 ##### 2.1 Disease/Risk Prediction
-  * Development of medical/disease trajectory: heart rate deterioration[1], Type 2 diabetes progression paths[2].
-  * Multimorbidity: for example, the coexistence of multiple chronic diseases increases the risk of mortality[3].
-  
+  * **Medical/disease Trajectory**: heart rate deterioration[1], Type 2 diabetes progression paths[2].
+  * **Multimorbidity**: e.g. the coexistence of multiple chronic diseases increases the risk of mortality[3].
+  * **Biomarker Discovery**: identify indicators/risk factors of a biological condition, e.g. find blood-borne biomarkers for early diagnosis of cancer.
   
 ---
 
@@ -49,3 +49,5 @@ CCG holds a data repository that links pseudonymised patient level records acros
 [1] Colopy, Glen Wright, et al. 2016. Bayesian Gaussian processes for identifying the deteriorating patient. 2016 38th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC).
 [2] W. Oh et al. 2016. Type 2 diabetes mellitus trajectories and associated risk factors. Big Data 4, 1 (2016), 25–30.
 [3] M. Mercer et al. 2009. Multimorbidity in primary care: Developing the research agenda. Family Practice 26, 2 (2009), 79–80.
+[4] Yang, Yongliang, et al. 2008. Integrative genomic data mining for discovery of potential blood-borne biomarkers for early diagnosis of cancer. PloS one 3.11 (2008): e3661.
+
