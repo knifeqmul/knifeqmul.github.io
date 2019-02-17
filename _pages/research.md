@@ -9,19 +9,19 @@ permalink: /research/
 ### Review
 <br>
 
-#### 1. Problems with Data
+#### **1. Problems with Data**
 
-##### 1.1 Data with censorship: 
+##### 1.1 **Data with Censorship** 
 A situation where a patient’s state is only observable during a certain period of time, or conversely, when potentially interesting events fall outside the observation period and are hence unobservable. 
 
-##### 1.2 Irregular time-series data
+##### 1.2 **Irregular Time-Series Data**
 Irregularity of the patient visits, certain laboratory tests are ordered annually, and other tests are performed only as
 needed.
 
-##### 1.3 Integration between different data orgins
+##### 1.3 **Integration between Different Data Orgins**
 Communication between different databases and terminology.
 
-##### 1.4 Missing data
+##### 1.4 **Missing Data**
 * The mapping between differernt changes in disease definitions and updates in the coding scheme, such as the change from ICD-9 to ICD-10 codes. For example, prediabetes did not have a corresponding ICD code until 2000
 * Unobservable information: the lifestyle changes of patient, and whether the patient has taken the medicine.
 * Some tests are performed only as needed, so this information is only collected when available. 
@@ -29,21 +29,21 @@ Communication between different databases and terminology.
 <br>
 
 
-#### 2. Current applications
+#### **2. Current applications**
 
-##### 2.1 Disease/Risk Prediction
+##### **2.1 Disease/Risk Prediction**
 * **Medical/disease Trajectory**: heart rate deterioration <a href="https://ieeexplore.ieee.org/document/7591926/">[1]</a>, Type 2 diabetes progression paths <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4851215/">[2]</a>.
 * **Multimorbidity**: e.g. the coexistence of multiple chronic diseases increases the risk of mortality <a href="https://www.ncbi.nlm.nih.gov/pubmed/19287000">[3]</a>.
 * **Biomarker Discovery**: identify indicators/risk factors of a biological condition, e.g. find blood-borne biomarkers for early diagnosis of cancer <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0003661">[4]</a>
   
-##### 2.2 Cohort Identification
+##### **2.2 Cohort Identification**
   * **Phenotype**:  a cohort (group) of patients, some of whom are more likely to have the disease. Phenotyping techniques are useful for identifying patients or populations with a given clinical characteristic from the EHRs, see review <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3932460/">[5]</a>. 
 
-##### 2.3 Quantification of Intervention Effect
+##### **2.3 Quantification of Intervention Effect**
   * **Quantify Effects**: e.g. evaluate the effect of different treatment regimes, assessing the effectiveness of treating to four different blood pressure targets <a href="https://www.ncbi.nlm.nih.gov/pubmed/29218880">[6]</a>. 
   * **Adverse Event Detection**: this term describes the detrimental effect of medical care on patient medical state. Examples include infection acquired during the treatment of a different condition, such as surgical site infection. For example, <a href="https://www.ncbi.nlm.nih.gov/pubmed/22713699">[7]</a> identify medications caused adverse drug reactions.
   
-##### 2.4 Building Evidence-Based Guideline
+##### **2.4 Building Evidence-Based Guideline**
   * **Guideline**: Provide guidance on the optimal treatment under a particular set of conditions based on epidemiological evidence. For example, American Diabetes Association (ADA) guidelines for diabetes consist of recommendations for diagnosing the condition (e.g., a patient is considered diabetic if his or her hemoglobin A1c is >6.5), controlling the disease (patient is under control if his or her A1c is <6.5 and systolic blood pressure is <140mmHg), and prescribing interventions (lifestyle modification and therapeutic interventions).
   
 
