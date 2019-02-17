@@ -16,7 +16,7 @@ permalink: /research/
 
 #### 2. Current applications
 ##### 2.1 Disease/Risk Prediction
-  * testungg
+  * Medical trajectory:  disease progression paths[1]
   
   
 ---
@@ -40,3 +40,9 @@ CCG holds a data repository that links pseudonymised patient level records acros
 2. EHR applications.
 3. Causal hypothesis testing.
 
+
+
+
+---
+### Reference
+[1] W. Oh et al. 2016. Type 2 diabetes mellitus trajectories and associated risk factors. Big Data 4, 1 (2016), 25–30.
