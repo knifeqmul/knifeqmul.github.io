@@ -16,7 +16,8 @@ permalink: /research/
 
 #### 2. Current applications
 ##### 2.1 Disease/Risk Prediction
-  * Medical trajectory:  disease progression paths[1]
+  * Development of medical/disease trajectory: heart rate deterioration[1], Type 2 diabetes progression paths[2].
+  * Multimorbidity: for example, the coexistence of multiple chronic diseases increases the risk of mortality[3].
   
   
 ---
@@ -45,4 +46,6 @@ CCG holds a data repository that links pseudonymised patient level records acros
 
 ---
 ### Reference
-[1] W. Oh et al. 2016. Type 2 diabetes mellitus trajectories and associated risk factors. Big Data 4, 1 (2016), 25–30.
+[1] Colopy, Glen Wright, et al. 2016. Bayesian Gaussian processes for identifying the deteriorating patient. 2016 38th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC).
+[2] W. Oh et al. 2016. Type 2 diabetes mellitus trajectories and associated risk factors. Big Data 4, 1 (2016), 25–30.
+[3] M. Mercer et al. 2009. Multimorbidity in primary care: Developing the research agenda. Family Practice 26, 2 (2009), 79–80.
