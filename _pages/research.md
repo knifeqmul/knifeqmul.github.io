@@ -11,17 +11,17 @@ permalink: /research/
 
 #### **1. Challenge on Data**
 
-##### 1.1 **Data with Censorship** 
+##### **1.1 Data with Censorship** 
 A situation where a patient’s state is only observable during a certain period of time, or conversely, when potentially interesting events fall outside the observation period and are hence unobservable. 
 
-##### 1.2 **Irregular Time-Series Data**
+##### **1.2 Irregular Time-Series Data**
 Irregularity of the patient visits, certain laboratory tests are ordered annually, and other tests are performed only as
 needed.
 
-##### 1.3 **Integration between Different Data Orgins**
+##### **1.3 Integration between Different Data Orgins**
 Communication between different databases and terminology.
 
-##### 1.4 **Missing Data**
+##### **1.4 Missing Data**
 * The mapping between differernt changes in disease definitions and updates in the coding scheme, such as the change from ICD-9 to ICD-10 codes. For example, prediabetes did not have a corresponding ICD code until 2000
 * Unobservable information: the lifestyle changes of patient, and whether the patient has taken the medicine.
 * Some tests are performed only as needed, so this information is only collected when available. 
