@@ -10,20 +10,24 @@ permalink: /research/
 
 #### 1. Problems with Data
 
-    ##### 1.1 Data with censorship: 
-    A situation where a patient’s state is only observable during a certain period of time, or conversely, when potentially interesting events fall outside the observation period and are hence unobservable. 
+##### 1.1 Data with censorship: 
+A situation where a patient’s state is only observable during a certain period of time, or conversely, when potentially interesting events fall outside the observation period and are hence unobservable. 
 
-    ##### 1.2 Irregular time-series data
-    Irregularity of the patient visits, certain laboratory tests are ordered annually, and other tests are performed only as
-    needed.
+##### 1.2 Irregular time-series data
+Irregularity of the patient visits, certain laboratory tests are ordered annually, and other tests are performed only as
+needed.
 
-    ##### 1.3 Integration between different data orgins
-    Communication between different databases and terminology.
+##### 1.3 Integration between different data orgins
+Communication between different databases and terminology.
 
-    ##### 1.4 Missing data
-    * The mapping between differernt changes in disease definitions and updates in the coding scheme, such as the change from ICD-9 to ICD-10 codes. For example, prediabetes did not have a corresponding ICD code until 2000
-    * Unobservable information: the lifestyle changes of patient, and whether the patient has taken the medicine.
-    * Some tests are performed only as needed, so this information is only collected when available. 
+##### 1.4 Missing data
+* The mapping between differernt changes in disease definitions and updates in the coding scheme, such as the change from ICD-9 to ICD-10 codes. For example, prediabetes did not have a corresponding ICD code until 2000
+* Unobservable information: the lifestyle changes of patient, and whether the patient has taken the medicine.
+* Some tests are performed only as needed, so this information is only collected when available. 
+
+<br>
+<br>
+
 
 
 #### 2. Current applications
