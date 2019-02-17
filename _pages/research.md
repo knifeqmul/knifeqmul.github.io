@@ -15,8 +15,10 @@ permalink: /research/
 
 
 #### 2. Current applications
-
-
+##### 2.1 Disease/Risk Prediction
+  * testungg
+  
+  
 ---
 
 ### Temporal plans
