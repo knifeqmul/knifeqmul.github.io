@@ -7,6 +7,7 @@ permalink: /research/
 ---
 
 ### Review
+<br>
 
 #### 1. Problems with Data
 
@@ -31,16 +32,16 @@ Communication between different databases and terminology.
 #### 2. Current applications
 
 ##### 2.1 Disease/Risk Prediction
-* **Medical/disease Trajectory**: heart rate deterioration[1], Type 2 diabetes progression paths[2].
-* **Multimorbidity**: e.g. the coexistence of multiple chronic diseases increases the risk of mortality[3].
-* **Biomarker Discovery**: identify indicators/risk factors of a biological condition, e.g. find blood-borne biomarkers for early diagnosis of cancer[4].
+* **Medical/disease Trajectory**: heart rate deterioration <a href="https://ieeexplore.ieee.org/document/7591926/">[1]</a>, Type 2 diabetes progression paths <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4851215/">[2]</a>.
+* **Multimorbidity**: e.g. the coexistence of multiple chronic diseases increases the risk of mortality <a href="https://www.ncbi.nlm.nih.gov/pubmed/19287000">[3]</a>.
+* **Biomarker Discovery**: identify indicators/risk factors of a biological condition, e.g. find blood-borne biomarkers for early diagnosis of cancer <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0003661">[4]</a>
   
 ##### 2.2 Cohort Identification
-  * **Phenotype**:  a cohort (group) of patients, some of whom are more likely to have the disease. Phenotyping techniques are useful for identifying patients or populations with a given clinical characteristic from the EHRs, see review[5]. 
+  * **Phenotype**:  a cohort (group) of patients, some of whom are more likely to have the disease. Phenotyping techniques are useful for identifying patients or populations with a given clinical characteristic from the EHRs, see review <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3932460/">[5]</a>. 
 
 ##### 2.3 Quantification of Intervention Effect
-  * **Quantify Effects**: e.g. evaluate the effect of different treatment regimes, assessing the effectiveness of treating to four different blood pressure targets[6].
-  * **Adverse Event Detection**: this term describes the detrimental effect of medical care on patient medical state. Examples include infection acquired during the treatment of a different condition, such as surgical site infection. For example, [7] identify medications caused adverse drug reactions.
+  * **Quantify Effects**: e.g. evaluate the effect of different treatment regimes, assessing the effectiveness of treating to four different blood pressure targets <a href="https://www.ncbi.nlm.nih.gov/pubmed/29218880">[6]</a>. 
+  * **Adverse Event Detection**: this term describes the detrimental effect of medical care on patient medical state. Examples include infection acquired during the treatment of a different condition, such as surgical site infection. For example, <a href="https://www.ncbi.nlm.nih.gov/pubmed/22713699">[7]</a> identify medications caused adverse drug reactions.
   
 ##### 2.4 Building Evidence-Based Guideline
   * **Guideline**: Provide guidance on the optimal treatment under a particular set of conditions based on epidemiological evidence. For example, American Diabetes Association (ADA) guidelines for diabetes consist of recommendations for diagnosing the condition (e.g., a patient is considered diabetic if his or her hemoglobin A1c is >6.5), controlling the disease (patient is under control if his or her A1c is <6.5 and systolic blood pressure is <140mmHg), and prescribing interventions (lifestyle modification and therapeutic interventions).
