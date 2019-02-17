@@ -11,7 +11,7 @@ permalink: /research/
 #### 1. Problems with Data
 
 ##### 1.1 Data with censorship: 
-    By censored data, we refer to the situation where a patient’s state is only observable during a certain period of time, or conversely, when potentially interesting events fall outside the observation period and are hence unobservable. 
+    A situation where a patient’s state is only observable during a certain period of time, or conversely, when potentially interesting events fall outside the observation period and are hence unobservable. 
 
 ##### 1.2 Irregular time-series data
 
@@ -23,9 +23,9 @@ permalink: /research/
 #### 2. Current applications
 
 ##### 2.1 Disease/Risk Prediction
-  * **Medical/disease Trajectory**: heart rate deterioration[1], Type 2 diabetes progression paths[2].
-  * **Multimorbidity**: e.g. the coexistence of multiple chronic diseases increases the risk of mortality[3].
-  * **Biomarker Discovery**: identify indicators/risk factors of a biological condition, e.g. find blood-borne biomarkers for early diagnosis of cancer[4].
+      * **Medical/disease Trajectory**: heart rate deterioration[1], Type 2 diabetes progression paths[2].
+      * **Multimorbidity**: e.g. the coexistence of multiple chronic diseases increases the risk of mortality[3].
+      * **Biomarker Discovery**: identify indicators/risk factors of a biological condition, e.g. find blood-borne biomarkers for early diagnosis of cancer[4].
   
 ##### 2.2 Cohort Identification
   * **Phenotype**:  a cohort (group) of patients, some of whom are more likely to have the disease. Phenotyping techniques are useful for identifying patients or populations with a given clinical characteristic from the EHRs, see review[5]. 
@@ -35,7 +35,7 @@ permalink: /research/
   * **Adverse Event Detection**: this term describes the detrimental effect of medical care on patient medical state. Examples include infection acquired during the treatment of a different condition, such as surgical site infection. For example, [7] identify medications caused adverse drug reactions.
   
 ##### 2.4 Building Evidence-Based Guideline
-Provide guidance on the optimal treatment under a particular set of conditions based on epidemiological evidence. For example, American Diabetes Association (ADA) guidelines for diabetes consist of recommendations for diagnosing the condition (e.g., a patient is considered diabetic if his or her hemoglobin A1c is >6.5), controlling the disease (patient is under control if his or her A1c is <6.5 and systolic blood pressure is <140mmHg), and prescribing interventions (lifestyle modification and therapeutic interventions).
+    Provide guidance on the optimal treatment under a particular set of conditions based on epidemiological evidence. For example, American Diabetes Association (ADA) guidelines for diabetes consist of recommendations for diagnosing the condition (e.g., a patient is considered diabetic if his or her hemoglobin A1c is >6.5), controlling the disease (patient is under control if his or her A1c is <6.5 and systolic blood pressure is <140mmHg), and prescribing interventions (lifestyle modification and therapeutic interventions).
   
 
 ---
