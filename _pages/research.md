@@ -59,10 +59,16 @@ CCG holds a data repository that links pseudonymised patient level records acros
 ---
 ### Reference
 [1] Colopy, Glen Wright, et al. 2016. Bayesian Gaussian processes for identifying the deteriorating patient. 2016 38th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC).
+
 [2] W. Oh et al. 2016. Type 2 diabetes mellitus trajectories and associated risk factors. Big Data 4, 1 (2016), 25–30.
+
 [3] M. Mercer et al. 2009. Multimorbidity in primary care: Developing the research agenda. Family Practice 26, 2 (2009), 79–80.
+
 [4] Yang, Yongliang, et al. 2008. Integrative genomic data mining for discovery of potential blood-borne biomarkers for early diagnosis of cancer. PloS one 3.11 (2008): e3661.
+
 [5] C. Shivade et al. 2014. A review of approaches to identifying patient phenotype cohorts using electronic health records.
 JAMIA 21, 2 (2014), 221–230.
+
 [6] Johnson, Kipp W., et al. 2018. Causal inference on electronic health records to assess blood pressure treatment targets: an application of the parametric g formula. Pac Symp Biocomput. Vol. 23. 2018.
+
 [7] Haerian, K., et al. 2012. Detection of pharmacovigilance‐related adverse events using electronic health records and automated methods. Clinical Pharmacology & Therapeutics 92.2 (2012): 228-234.
