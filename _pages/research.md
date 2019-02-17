@@ -58,15 +58,15 @@ CCG holds a data repository that links pseudonymised patient level records acros
 
 
 #### 1.Issues
-1. Data is in CCG, while GPs are located in clinics.
-2. Data is semi-structured without clear description.
+    1. Data is in CCG, while GPs are located in clinics.
+    2. Data is semi-structured without clear description.
 
 
 
 #### 2.To do
-1. Ontology.
-2. EHR applications.
-3. Causal hypothesis testing.
+    1. Ontology.
+    2. EHR applications.
+    3. Causal hypothesis testing.
 
 
 
