@@ -18,8 +18,12 @@ permalink: /research/
 ##### 2.1 Disease/Risk Prediction
   * **Medical/disease Trajectory**: heart rate deterioration[1], Type 2 diabetes progression paths[2].
   * **Multimorbidity**: e.g. the coexistence of multiple chronic diseases increases the risk of mortality[3].
-  * **Biomarker Discovery**: identify indicators/risk factors of a biological condition, e.g. find blood-borne biomarkers for early diagnosis of cancer.
-  
+  * **Biomarker Discovery**: identify indicators/risk factors of a biological condition, e.g. find blood-borne biomarkers for early diagnosis of cancer[4].
+##### 2.2 Cohort Identification
+  * **Phenotype**:  a cohort (group) of patients, some of whom are more likely to have the disease. Phenotyping techniques are useful for identifying patients or populations with a given clinical characteristic from the EHRs, see review[5]. 
+
+
+
 ---
 
 ### Temporal plans
@@ -50,4 +54,5 @@ CCG holds a data repository that links pseudonymised patient level records acros
 [2] W. Oh et al. 2016. Type 2 diabetes mellitus trajectories and associated risk factors. Big Data 4, 1 (2016), 25–30.
 [3] M. Mercer et al. 2009. Multimorbidity in primary care: Developing the research agenda. Family Practice 26, 2 (2009), 79–80.
 [4] Yang, Yongliang, et al. 2008. Integrative genomic data mining for discovery of potential blood-borne biomarkers for early diagnosis of cancer. PloS one 3.11 (2008): e3661.
-
+[5] C. Shivade et al. 2014. A review of approaches to identifying patient phenotype cohorts using electronic health records.
+JAMIA 21, 2 (2014), 221–230.
