@@ -26,8 +26,6 @@ Communication between different databases and terminology.
 * Some tests are performed only as needed, so this information is only collected when available. 
 
 <br>
-<br>
-
 
 
 #### 2. Current applications
