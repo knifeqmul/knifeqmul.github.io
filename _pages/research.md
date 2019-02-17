@@ -17,7 +17,7 @@ permalink: /research/
 ### 2. Current applications
 
 
-<hr size=2 />
+---
 
 ## Temporal plans
 
