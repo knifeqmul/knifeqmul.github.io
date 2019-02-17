@@ -11,8 +11,7 @@ permalink: /research/
 #### 1. Problems with Data
 
 ##### 1.1 Data with censorship: 
-  By censored data, we refer to the situation where a patient’s state is only observable during a certain period of time, or conversely, when potentially interesting events fall outside the observation
-period and are hence unobservable. 
+    By censored data, we refer to the situation where a patient’s state is only observable during a certain period of time, or conversely, when potentially interesting events fall outside the observation period and are hence unobservable. 
 
 ##### 1.2 Irregular time-series data
 
