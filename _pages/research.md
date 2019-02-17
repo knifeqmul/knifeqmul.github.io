@@ -6,6 +6,20 @@ sitemap: false
 permalink: /research/
 ---
 
+## Review
+### 1. Problems with Data
+#### 1.1 Data with censorship
+#### 1.2 Irregular Time-Series Data
+#### 1.3 Integration between different data orgins
+#### 1.4 Missing data
+
+
+### 2. Current applications
+
+
+
+
+
 
 CCG holds a data repository that links pseudonymised patient level records across health and care settings. The records replaced NHS number with pseudo ID, date of birth with age etc. It is not considered as personal data by law if this is handled in a secure enviroment. 
 
