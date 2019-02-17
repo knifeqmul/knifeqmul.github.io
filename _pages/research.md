@@ -9,7 +9,7 @@ permalink: /research/
 ### Review
 <br>
 
-#### **1. Problems with Data**
+#### **1. Challenge on Data**
 
 ##### 1.1 **Data with Censorship** 
 A situation where a patient’s state is only observable during a certain period of time, or conversely, when potentially interesting events fall outside the observation period and are hence unobservable. 
@@ -29,7 +29,7 @@ Communication between different databases and terminology.
 <br>
 
 
-#### **2. Current applications**
+#### **2. Current Applications**
 
 ##### **2.1 Disease/Risk Prediction**
 * **Medical/disease Trajectory**: heart rate deterioration <a href="https://ieeexplore.ieee.org/document/7591926/">[1]</a>, Type 2 diabetes progression paths <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4851215/">[2]</a>.
