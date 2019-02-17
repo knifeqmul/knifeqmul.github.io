@@ -8,11 +8,11 @@ permalink: /background/
 
 
 
-#### **1. Data origins**
+#### **1. Data Origins**
 
 <figure class="center"> <img src="{{ site.url }}{{ site.baseurl }}/images/background/databases.png" style="width: 450px" align="middle">
 
-
+<br>
 #### **2. Database**
 
 Some tables in the database:
@@ -90,6 +90,7 @@ Some notes about the **encounter** table.
   </tr>
 </table>
 
+<br>
 
 #### **3. Classification Schema**
 
@@ -136,6 +137,7 @@ Classification schema when recording relevant medical information and events. Th
 
 [1] Shickel, B., Tighe, P. J., Bihorac, A., & Rashidi, P. (2018). Deep EHR: a survey of recent advances in deep learning techniques for electronic health record (EHR) analysis. IEEE journal of biomedical and health informatics, 22(5), 1589-1604.
 
+<br>
 
 #### **4. Terminology**
 
@@ -304,8 +306,9 @@ Within the chapters, terms are organised hierarchically, the higher up the hiera
 <figure class="center"> <img src="{{ site.url }}{{ site.baseurl }}/images/background/read_hier.png" style="width: 450px" align="middle">
 
 ##### **4.4. Issues**
-1. 'On browsing it was noted that depression was entered under different code stems. For example, Read codes for mental disorders began with the stem ‘E’; however, relevant codes were also found under ‘signs and symptoms’ with the stem ‘R’ or under examination with the stem ‘2’. The most common code stems were noted' - Creating medical and drug code lists to identify cases in primary care databases.
+    'On browsing it was noted that depression was entered under different code stems. For example, Read codes for mental disorders began with the stem ‘E’; however, relevant codes were also found under ‘signs and symptoms’ with the stem ‘R’ or under examination with the stem ‘2’. The most common code stems were noted' - Creating medical and drug code lists to identify cases in primary care databases.
 
+<br>
 
 #### **5. Glossary**
 
