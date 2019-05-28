@@ -6,37 +6,12 @@ sitemap: false
 permalink: /task2/
 ---
 
-## Task2
 
-### Data Warehouse
-#### 1. i2b2
-Features: 'such as patient de-identification, natural language processing extensions, navigation using terminologies (e.g. ICD-10), combination of EHR data with genomics and a user friendly ‘drag and drop’ interface'
+#### **Task 2: Generative Model. Building on the work of task 1, this task will:**
 
+*  Develop a sequence of generative models, based on the description of the data generation process, forming the most detailed ‘executable’ description of the data.
+*  Use the models to generate synthetic datasets and, if possible, compare the descriptive statistics, using this to refine the generative model.
 
+This task will result in a ‘data sandpit’ to allow other researchers to evaluate analytical and learning algorithms. The true values of many of the parameters used in the generator will be unknown, so (even if the structure is correct) the synthetic data will not fully correspond to the actual data. However, researchers will be able to modify and rerun the generator, creating a test bed for algorithms. 
 
-
-
-### Classfication
-#### 1. has diabetes
-<ol>
-<li>Diabetes-PracticeFusion: https://www.kaggle.com/c/pf2012-diabetes</li>
-<li>Dataset: see <a href='https://github.com/knifeqmul/knifeqmul.github.io/tree/master/downloads/Diabetes-PracticeFusion'>[here]</a></li>
-<li>Solution:
-<ol style="list-style-type: lower-alpha; padding-bottom: 0;">
-<li style="margin-left:2em">mapped complicating conditions with their ICD9, together with other features to do feature selection;</li>
-<li style="margin-left:2em">grouped by features;</li>
-<li style="margin-left:2em; padding-bottom: 0;">built model for each group (some are boosted regression trees, some are random foresets), and validated each group's model as a classfication problem.</li>
-</ol>
-</li>
-</ol>
-
-#### 2. has heart disease
-<ol>
-<li>Heart Disease UCI: https://www.kaggle.com/ronitf/heart-disease-uci</li>
-</ol>
-
-#### 3. medical appointment no shows
-<ol>
-<li>Medical Appointment No Shows: https://www.kaggle.com/joniarroba/noshowappointments</li>
-</ol>
 

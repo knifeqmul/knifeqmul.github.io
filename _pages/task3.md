@@ -6,37 +6,11 @@ sitemap: false
 permalink: /task3/
 ---
 
-## Task3
+#### **Task 3: Data Use, Knowledge Elicitation and Analysis Methods.**
 
-### Data Warehouse
-#### 1. i2b2
-Features: 'such as patient de-identification, natural language processing extensions, navigation using terminologies (e.g. ICD-10), combination of EHR data with genomics and a user friendly ‘drag and drop’ interface'
+*  Elicit from data custodians the uses of the data and categorise the data analytic challenges. We will consider both what is currently possible and what might be achieved in future.
+*  Review available statistical / ML (including SRL) techniques against the data analytic requirements.
+*  Investigate how causal knowledge could be elicited and modelled for data of this complexity (with examples, if possible).
+*  If possible, carry out ‘proof of concepts’ analyses, using either real or synthetic data (Task 2).
 
-
-
-
-
-### Classfication
-#### 1. has diabetes
-<ol>
-<li>Diabetes-PracticeFusion: https://www.kaggle.com/c/pf2012-diabetes</li>
-<li>Dataset: see <a href='https://github.com/knifeqmul/knifeqmul.github.io/tree/master/downloads/Diabetes-PracticeFusion'>[here]</a></li>
-<li>Solution:
-<ol style="list-style-type: lower-alpha; padding-bottom: 0;">
-<li style="margin-left:2em">mapped complicating conditions with their ICD9, together with other features to do feature selection;</li>
-<li style="margin-left:2em">grouped by features;</li>
-<li style="margin-left:2em; padding-bottom: 0;">built model for each group (some are boosted regression trees, some are random foresets), and validated each group's model as a classfication problem.</li>
-</ol>
-</li>
-</ol>
-
-#### 2. has heart disease
-<ol>
-<li>Heart Disease UCI: https://www.kaggle.com/ronitf/heart-disease-uci</li>
-</ol>
-
-#### 3. medical appointment no shows
-<ol>
-<li>Medical Appointment No Shows: https://www.kaggle.com/joniarroba/noshowappointments</li>
-</ol>
-
+The task will result in a clearer definition in the data analysis and knowledge modelling research needs, distinguishing these from what can be achieved with current techniques. 
