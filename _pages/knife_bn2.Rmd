@@ -1,5 +1,9 @@
 ---
-title: "R Markdown for KNIFE"
+title: "KNIFE - R Markdown for KNIFE"
+layout: textlay
+excerpt: "KNIFE - Task1"
+sitemap: false
+permalink: /knife_bn2/
 author: "Haoyuan"
 date: "11 March 2019"
 output:
