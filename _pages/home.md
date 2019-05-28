@@ -34,3 +34,29 @@ This task will result in a description of the data that can be shared with poten
 This task will result in a ‘data sandpit’ to allow other researchers to evaluate analytical and learning algorithms. The true values of many of the parameters used in the generator will be unknown, so (even if the structure is correct) the synthetic data will not fully correspond to the actual data. However, researchers will be able to modify and rerun the generator, creating a test bed for algorithms. 
 
 
+
+#### **Task 3: Data Use, Knowledge Elicitation and Analysis Methods.**
+
+*  Elicit from data custodians the uses of the data and categorise the data analytic challenges. We will consider both what is currently possible and what might be achieved in future.
+*  Review available statistical / ML (including SRL) techniques against the data analytic requirements.
+*  Investigate how causal knowledge could be elicited and modelled for data of this complexity (with examples, if possible).
+*  If possible, carry out ‘proof of concepts’ analyses, using either real or synthetic data (Task 2).
+
+The task will result in a clearer definition in the data analysis and knowledge modelling research needs, distinguishing these from what can be achieved with current techniques. 
+
+
+
+#### **Task 4: Practical Data Handling issues.**
+
+*  Use the results of task 1 to investigate the data quality issues, including clarifying the concept of missing data given the clinical discretion in choosing which values to record.
+*  Catalogue the range of data wrangling issues encountered in practical and determine the type of knowledge needed to provide automatic assistance.
+
+This task will result in a clear set of challenges for improving the efficiency of data analysis, using current analysis techniques.
+
+
+#### **Task 5: Outreach and consortium building.**
+
+This task will be to build a consortium of researcher to collaborate on future work. Guided by the leadership of the Turing Health Programme, we will identify and contact potential collaborators. Workshops (or a workshop) will be run to share ideas and we expect to prepare follow-up proposals. 
+
+
+
