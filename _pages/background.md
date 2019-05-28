@@ -1,0 +1,416 @@
+﻿---
+title: "KNIFE - Background"
+layout: gridlay
+excerpt: "KNIFE -- Background."
+sitemap: false
+permalink: /background/
+---
+
+
+
+#### **1. Data Origins**
+
+<figure class="center"> <img src="{{ site.url }}{{ site.baseurl }}/images/background/databases.png" style="width: 450px" align="middle">
+
+<br>
+#### **2. Database**
+
+Some tables in the database:
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-qtf5{border-color:#000000;text-align:left}
+.tg .tg-v51t{font-weight:bold;background-color:#ecf4ff;border-color:#000000;text-align:center}
+.tg .tg-v47y{font-weight:bold;border-color:#000000;text-align:left}
+.tg .tg-mcqj{font-weight:bold;border-color:#000000;text-align:left;vertical-align:top}
+.tg .tg-73oq{border-color:#000000;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-v51t">table</th>
+    <th class="tg-v51t">description</th>
+  </tr>
+  <tr>
+    <td class="tg-v47y">person</td>
+    <td class="tg-qtf5">links to personal information, including name, GP, address, and other information</td>
+  </tr>
+  <tr>
+    <td class="tg-v47y">person_prsnl_reltn</td>
+    <td class="tg-qtf5">patient's person relation, such as the primary care physician of the patient</td>
+  </tr>
+  <tr>
+    <td class="tg-v47y">order</td>
+    <td class="tg-qtf5">can pull orders, alerts, drugs administration and procedures</td>
+  </tr>
+  <tr>
+    <td class="tg-v47y">diagnosis and nomenclature</td>
+    <td class="tg-qtf5">keep various classifications like ICD-10 can be tied to an encounter</td>
+  </tr>
+  <tr>
+    <td class="tg-mcqj">pathway</td>
+    <td class="tg-73oq">store details about powerplans. A powerplan pre-prepared group of orders (such as radiology, pathology, laboratory tests, medications, patient care etc) and associated instructions for a specific condition, procedure or element of treatmentfor faster electronic order entry</td>
+  </tr>
+  <tr>
+    <td class="tg-mcqj">clinical_event</td>
+    <td class="tg-73oq">store patient encounter records per clinic, including information such as vital signs, drugs administration time, and lab results</td>
+  </tr>
+</table>
+
+<br>
+Some notes about the **encounter** table.
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-qtf5{border-color:#000000;text-align:left}
+.tg .tg-v51t{font-weight:bold;background-color:#ecf4ff;border-color:#000000;text-align:center}
+.tg .tg-v47y{font-weight:bold;border-color:#000000;text-align:left}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-v51t">field name</th>
+    <th class="tg-v51t">description of table encounter</th>
+  </tr>
+  <tr>
+    <td class="tg-v47y">encntr_type_cd</td>
+    <td class="tg-qtf5">Inpatient or outpatient encounter type</td>
+  </tr>
+  <tr>
+    <td class="tg-v47y">encntr_type_class_cd</td>
+    <td class="tg-qtf5">classifies patients into more general groups such as emergency, recurring outpatient</td>
+  </tr>
+  <tr>
+    <td class="tg-v47y">reg_dt_tm</td>
+    <td class="tg-qtf5">the registered or admitted date of the patient</td>
+  </tr>
+  <tr>
+    <td class="tg-v47y">active_ind</td>
+    <td class="tg-qtf5">1 means the patient is active, 0 means the patiend has discharged</td>
+  </tr>
+</table>
+
+<br>
+
+#### **3. Classification Schema**
+
+Classification schema when recording relevant medical information and events. These codes can vary between institutions, and maintained by terminology like Systemized Nomenclature of Medicine - Clinical Terms (SNOMED CT) or READ codes (see <a href="http://www.gp-training.net/it/synergy_archive/synergy/readcode.htm">[here]</a>). The following table is from [1]:
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-2dfk{font-weight:bold;background-color:#ecf4ff;border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-ohmh{font-weight:bold;background-color:#ecf4ff;border-color:inherit;text-align:center}
+.tg .tg-xldj{border-color:inherit;text-align:left}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-ohmh">Schema </th>
+    <th class="tg-ohmh">Number of Codes</th>
+    <th class="tg-2dfk">Examples</th>
+  </tr>
+  <tr>
+    <td class="tg-xldj">ICD-10(Diagnosis)</td>
+    <td class="tg-xldj">68,000</td>
+    <td class="tg-0pky">- J9600: Acute respiratory failure<br>- I509: Heart failure<br>- I5020: Systolic heart failure</td>
+  </tr>
+  <tr>
+    <td class="tg-xldj">CPT(Procedures)</td>
+    <td class="tg-xldj">9,641</td>
+    <td class="tg-0pky">- 72146: MRI Thoracic Spine<br>- 67810: Eyelid skin biopsy<br>- 19301: Partial mastectomy<br></td>
+  </tr>
+  <tr>
+    <td class="tg-xldj">LOINC(Laboratory)</td>
+    <td class="tg-xldj">80,868</td>
+    <td class="tg-0pky">- 4024-6: Salicylate, Serum<br>- 56478-1: Ethanol, Blood<br><br>- 3414-0: Buprenorphine Screen<br></td>
+  </tr>
+  <tr>
+    <td class="tg-xldj">RxNorm(Medications)</td>
+    <td class="tg-xldj">116,075</td>
+    <td class="tg-0pky">- 161: Acetaminophen<br>- 7052: Morphine<br>- 1819: Buprenorphine</td>
+  </tr>
+  
+</table>
+
+
+[1] Shickel, B., Tighe, P. J., Bihorac, A., & Rashidi, P. (2018). Deep EHR: a survey of recent advances in deep learning techniques for electronic health record (EHR) analysis. IEEE journal of biomedical and health informatics, 22(5), 1589-1604.
+
+<br>
+
+#### **4. Terminology**
+
+SNOMED CT and READ codes are terminology designed for use in electronic health records. A more detailed introduction of Read codes see [here]({{ site.baseurl }}/downloads/readcodehier.pdf), a list of codes can be found [here]({{ site.baseurl }}/downloads/acc6343-read-codes.xls).
+
+
+##### **4.1. Read Code - Process of Care**
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-uril{color:#000000;border-color:#000000;text-align:left}
+.tg .tg-h8n2{font-weight:bold;color:#000000;border-color:#000000;text-align:left}
+.tg .tg-4yk5{font-weight:bold;background-color:#ecf4ff;color:#000000;border-color:#000000;text-align:center}
+.tg .tg-8fiv{font-weight:bold;color:#000000;border-color:#000000;text-align:left;vertical-align:top}
+.tg .tg-pjk6{color:#000000;border-color:#000000;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-4yk5" colspan="4">Process of Care</th>
+  </tr>
+  <tr>
+    <td class="tg-h8n2">0<br></td>
+    <td class="tg-uril">Occupations</td>
+    <td class="tg-h8n2">5</td>
+    <td class="tg-uril">Radiology</td>
+  </tr>
+  <tr>
+    <td class="tg-h8n2">1</td>
+    <td class="tg-uril">History and Symptoms</td>
+    <td class="tg-h8n2">6</td>
+    <td class="tg-uril">Preventative Procedures</td>
+  </tr>
+  <tr>
+    <td class="tg-h8n2">2</td>
+    <td class="tg-uril">Examinations and Signs</td>
+    <td class="tg-h8n2">7</td>
+    <td class="tg-uril">Operative Procedures</td>
+  </tr>
+  <tr>
+    <td class="tg-8fiv">3</td>
+    <td class="tg-pjk6">Diagnostic Procedures</td>
+    <td class="tg-8fiv">8</td>
+    <td class="tg-pjk6">Other Therapeutic Procedures</td>
+  </tr>
+  <tr>
+    <td class="tg-8fiv">4</td>
+    <td class="tg-pjk6">Laboratory Procedures</td>
+    <td class="tg-8fiv">9</td>
+    <td class="tg-pjk6">Administration</td>
+  </tr>
+</table>
+
+
+
+##### **4.2. Read Code - Diagnoses**
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-uril{color:#000000;border-color:#000000;text-align:left}
+.tg .tg-h8n2{font-weight:bold;color:#000000;border-color:#000000;text-align:left}
+.tg .tg-4yk5{font-weight:bold;background-color:#ecf4ff;color:#000000;border-color:#000000;text-align:center}
+.tg .tg-q4o2{font-weight:bold;color:#333333;border-color:#000000;text-align:left}
+.tg .tg-clsj{color:#333333;border-color:#000000;text-align:left}
+.tg .tg-7j3r{font-weight:bold;color:#333333;border-color:#000000;text-align:left;vertical-align:top}
+.tg .tg-on52{color:#333333;border-color:#000000;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-4yk5" colspan="4">Diagnoses</th>
+  </tr>
+  <tr>
+    <td class="tg-q4o2">A</td>
+    <td class="tg-uril">Infectious and,Parasitic Diseases</td>
+    <td class="tg-h8n2">L</td>
+    <td class="tg-uril">Pregnancy, Childbirth etc</td>
+  </tr>
+  <tr>
+    <td class="tg-q4o2">B</td>
+    <td class="tg-clsj">Neoplasms</td>
+    <td class="tg-q4o2">M</td>
+    <td class="tg-clsj">Skin &amp; Subcutaneous Tissue Diseases</td>
+  </tr>
+  <tr>
+    <td class="tg-q4o2">C</td>
+    <td class="tg-clsj">Endocrine,,Nutrition and Metabolic Disorders</td>
+    <td class="tg-q4o2">N</td>
+    <td class="tg-clsj">Musculoskeletal &amp; Connective Tissue Diseases</td>
+  </tr>
+  <tr>
+    <td class="tg-7j3r">D</td>
+    <td class="tg-on52">Blood and,Blood-forming Organs</td>
+    <td class="tg-7j3r">P</td>
+    <td class="tg-on52">Congenital Anomalies</td>
+  </tr>
+  <tr>
+    <td class="tg-7j3r">E</td>
+    <td class="tg-on52">Mental Disorders</td>
+    <td class="tg-7j3r">Q</td>
+    <td class="tg-on52">Perinatal Conditions</td>
+  </tr>
+  <tr>
+    <td class="tg-7j3r">F</td>
+    <td class="tg-on52">Nervous System,&amp; Sense Organs Diseases</td>
+    <td class="tg-7j3r">R</td>
+    <td class="tg-on52">Symptoms, Signs and Ill-defined conditions</td>
+  </tr>
+  <tr>
+    <td class="tg-7j3r">G</td>
+    <td class="tg-on52">Circulatory System,Disorders</td>
+    <td class="tg-7j3r">S</td>
+    <td class="tg-on52">Injury and Poisoning</td>
+  </tr>
+  <tr>
+    <td class="tg-7j3r">H</td>
+    <td class="tg-on52">Respiratory System,Diseases<br></td>
+    <td class="tg-7j3r">T</td>
+    <td class="tg-on52">Cause of Injury and Poisoning</td>
+  </tr>
+  <tr>
+    <td class="tg-7j3r">J</td>
+    <td class="tg-on52">Digestive System,Diseases</td>
+    <td class="tg-7j3r">U</td>
+    <td class="tg-on52">[X] External Causes of Morbidity and Mortality</td>
+  </tr>
+  <tr>
+    <td class="tg-7j3r">K</td>
+    <td class="tg-on52">Genitourinary,System Diseases</td>
+    <td class="tg-7j3r">Z</td>
+    <td class="tg-on52">[V] Supplementary factors influencing health status or contact with the Health services other than for illness</td>
+  </tr>
+</table>
+
+
+
+##### **4.3. Read Code - How they are orgnasied**
+Within the chapters, terms are organised hierarchically, the higher up the hierarchy the less specific the codes. Full stops are used as ‘padding’ characters to ensure that all codes contain 5 characters. For example:
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-qtf5{border-color:#000000;text-align:left}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-qtf5">1…..</th>
+    <th class="tg-qtf5">History / symptoms</th>
+  </tr>
+  <tr>
+    <td class="tg-qtf5">17…</td>
+    <td class="tg-qtf5">Respiratory symptoms</td>
+  </tr>
+  <tr>
+    <td class="tg-qtf5">171..</td>
+    <td class="tg-qtf5">Cough</td>
+  </tr>
+  <tr>
+    <td class="tg-qtf5">1714</td>
+    <td class="tg-qtf5">Productive cough -green sputum</td>
+  </tr>
+</table>
+
+
+<figure class="center"> <img src="{{ site.url }}{{ site.baseurl }}/images/background/read_hier.png" style="width: 450px" align="middle">
+
+##### **4.4. Issues**
+    'On browsing it was noted that depression was entered under different code stems. For example, Read codes for mental disorders began with the stem ‘E’; however, relevant codes were also found under ‘signs and symptoms’ with the stem ‘R’ or under examination with the stem ‘2’. The most common code stems were noted' - Creating medical and drug code lists to identify cases in primary care databases.
+
+<br>
+
+#### **5. Glossary**
+
+**CCGs** - <a href='https://www.nhscc.org/ccgs/'>Clinical Commission Groups</a> commission most of the hospital and community NHS services in the local areas for which they are responsible. Commissioning involves deciding what services are needed for diverse local populations, and ensuring that they are provided.
+
+**CRS** - Clinical Record System or Care Records Service?
+
+**CSUs** - Commissioning Support Units provide CCGs with external support, specialist skills and knowledge to support them in their role as commissioners, including business intelligence services, clinical procurement services, business support services such as human resources, payroll, procurement of goods and services and some aspects of informatics.
+
+**ELFT** - <a href='https://www.elft.nhs.uk/'>East London NHS Foundation Trust</a> (formerly known as East London and The City University Mental Health NHS Trust) was formed in April 2000. It provides mental health and community health services in East London and specialist services to a wider region.
+
+
+**EMIS** - EMIS Health, formerly known as <a href='https://www.emishealth.com/'>Egton Medical Information Systems</a>, supplies electronic patient record systems and software used in primary care in England. It claims that more than half of GP practices across the UK use EMIS software.
+
+
+**GP** - General practitioner, a family doctor who works from a local surgery to provide medical advice and treatment to patients registered on their list .
+
+**HLP** - <a href='https://www.healthylondon.org/'>Healthy London Partnership</a> works with its partners to transform, connect and improve health and care so everyone in the capital can live healthier lives.
+
+**RiO** - The electronic patient record system which holds information about referrals, appointments and clinical information.
+
+
+
+
+### Review
+<br>
+
+#### **1. Challenge on Data**
+
+##### **1.1 Data with Censorship** 
+A situation where a patient’s state is only observable during a certain period of time, or conversely, when potentially interesting events fall outside the observation period and are hence unobservable. 
+
+##### **1.2 Irregular Time-Series Data**
+Irregularity of the patient visits, certain laboratory tests are ordered annually, and other tests are performed only as
+needed.
+
+##### **1.3 Integration between Different Data Origins**
+Communication between different databases and terminology.
+
+##### **1.4 Missing Data**
+* The mapping between different changes in disease definitions and updates in the coding scheme, such as the change from ICD-9 to ICD-10 codes. For example, prediabetes did not have a corresponding ICD code until 2000
+* Unobservable information: the lifestyle changes of patient, and whether the patient has taken the medicine.
+* Some tests are performed only as needed, so this information is only collected when available. 
+
+<br>
+
+
+#### **2. Current Applications**
+
+##### **2.1 Disease/Risk Prediction**
+* **Medical/disease Trajectory**: heart rate deterioration <a href="https://ieeexplore.ieee.org/document/7591926/">[1]</a>, Type 2 diabetes progression paths <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4851215/">[2]</a>.
+* **Multimorbidity**: e.g. the coexistence of multiple chronic diseases increases the risk of mortality <a href="https://www.ncbi.nlm.nih.gov/pubmed/19287000">[3]</a>.
+* **Biomarker Discovery**: identify indicators/risk factors of a biological condition, e.g. find blood-borne biomarkers for early diagnosis of cancer <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0003661">[4]</a>
+  
+##### **2.2 Cohort Identification**
+  * **Phenotype**:  a cohort (group) of patients, some of whom are more likely to have the disease. Phenotyping techniques are useful for identifying patients or populations with a given clinical characteristic from the EHRs, see review <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3932460/">[5]</a>. 
+
+##### **2.3 Quantification of Intervention Effect**
+  * **Quantify Effects**: e.g. evaluate the effect of different treatment regimes, assessing the effectiveness of treating to four different blood pressure targets <a href="https://www.ncbi.nlm.nih.gov/pubmed/29218880">[6]</a>. 
+  * **Adverse Event Detection**: this term describes the detrimental effect of medical care on patient medical state. Examples include infection acquired during the treatment of a different condition, such as surgical site infection. For example, <a href="https://www.ncbi.nlm.nih.gov/pubmed/22713699">[7]</a> identify medications caused adverse drug reactions.
+  
+##### **2.4 Building Evidence-Based Guideline**
+  * **Guideline**: Provide guidance on the optimal treatment under a particular set of conditions based on epidemiological evidence. For example, American Diabetes Association (ADA) guidelines for diabetes consist of recommendations for diagnosing the condition (e.g., a patient is considered diabetic if his or her hemoglobin A1c is >6.5), controlling the disease (patient is under control if his or her A1c is <6.5 and systolic blood pressure is <140mmHg), and prescribing interventions (lifestyle modification and therapeutic interventions).
+  
+
+---
+
+### Temporal plans
+
+CCG holds a data repository that links pseudonymised patient level records across health and care settings. The records replaced NHS number with pseudo ID, date of birth with age etc. It is not considered as personal data by law if this is handled in a secure enviroment. 
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/background/todo.png" style="width: 900px">
+
+
+
+#### 1.Issues
+    1. Data is in CCG, while GPs are located in clinics.
+    2. Data is semi-structured without clear description.
+
+
+
+#### 2.To do
+    1. Ontology.
+    2. EHR applications.
+    3. Causal hypothesis testing.
+
+
+
+
+---
+### Reference
+[1] Colopy, Glen Wright, et al. 2016. Bayesian Gaussian processes for identifying the deteriorating patient. 2016 38th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC).
+
+[2] W. Oh et al. 2016. Type 2 diabetes mellitus trajectories and associated risk factors. Big Data 4, 1 (2016), 25–30.
+
+[3] M. Mercer et al. 2009. Multimorbidity in primary care: Developing the research agenda. Family Practice 26, 2 (2009), 79–80.
+
+[4] Yang, Yongliang, et al. 2008. Integrative genomic data mining for discovery of potential blood-borne biomarkers for early diagnosis of cancer. PloS one 3.11 (2008): e3661.
+
+[5] C. Shivade et al. 2014. A review of approaches to identifying patient phenotype cohorts using electronic health records.
+    JAMIA 21, 2 (2014), 221–230.
+
+[6] Johnson, Kipp W., et al. 2018. Causal inference on electronic health records to assess blood pressure treatment targets: an application of the parametric g formula. Pac Symp Biocomput. Vol. 23. 2018.
+
+[7] Haerian, K., et al. 2012. Detection of pharmacovigilance‐related adverse events using electronic health records and automated methods. Clinical Pharmacology & Therapeutics 92.2 (2012): 228-234.
