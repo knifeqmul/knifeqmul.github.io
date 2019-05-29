@@ -14,6 +14,6 @@ permalink: /task2/
 
 This task will result in a ‘data sandpit’ to allow other researchers to evaluate analytical and learning algorithms. The true values of many of the parameters used in the generator will be unknown, so (even if the structure is correct) the synthetic data will not fully correspond to the actual data. However, researchers will be able to modify and rerun the generator, creating a test bed for algorithms. 
 
-test
+test2
+<object type="text/html" data="http://haoyuan.uk/knife.html"></object>
 
-<div w3-include-html="http://haoyuan.uk/knife.html"></div> 
