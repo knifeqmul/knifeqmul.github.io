@@ -100,3 +100,9 @@ Results of the Audit Commission’s 2009 national clinical coding audit in selec
 <br>
 
 
+
+
+
+
+### Reference
+[1] Boyd, Andy, Rosie Cornish, Leigh Johnson, Shirley Simmonds, Holly Syddall, Leo Westbury, Cyrus Cooper, and John Macleod. "Understanding Hospital Episode Statistics (HES)." London, UK: CLOSER (2017).
