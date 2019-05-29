@@ -14,7 +14,7 @@ permalink: /task2/
 
 This task will result in a ‘data sandpit’ to allow other researchers to evaluate analytical and learning algorithms. The true values of many of the parameters used in the generator will be unknown, so (even if the structure is correct) the synthetic data will not fully correspond to the actual data. However, researchers will be able to modify and rerun the generator, creating a test bed for algorithms. 
 
-test8
+test9
 
 <!DOCTYPE html>
 <html>
@@ -30,7 +30,7 @@ frameborder="0" allowfullscreen>
 <html>
 <body>
 <iframe width="560" height="315"
-src="haoyuanzhang1990.github.io/knife"
+src="http://haoyuan.uk/knife"
 frameborder="0" allowfullscreen>
 </iframe>
 </body>
@@ -42,7 +42,7 @@ frameborder="0" allowfullscreen>
 <html>
 <body>
 <iframe width="560" height="315"
-src="https://haoyuan.uk"
+src="http://haoyuan.uk"
 frameborder="0" allowfullscreen>
 </iframe>
 </body>
