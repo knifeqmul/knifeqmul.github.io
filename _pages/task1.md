@@ -15,6 +15,12 @@ permalink: /task1/
 
 This task will result in a description of the data that can be shared with potential collaborators. A complete data dictionary may not be necessary if the same concepts recur in different parts of the data.
 
+<br>
+
+##### **Data Journey**
+
+<figure class="center"> <img src="{{ site.url }}{{ site.baseurl }}/images/background/databases.png" style="width: 450px" align="middle">
+
 
 <br>
 

@@ -8,11 +8,7 @@ permalink: /background/
 
 
 
-#### **1. Data Origins**
 
-<figure class="center"> <img src="{{ site.url }}{{ site.baseurl }}/images/background/databases.png" style="width: 450px" align="middle">
-
-<br>
 #### **2. Database**
 
 Some tables in the database:
