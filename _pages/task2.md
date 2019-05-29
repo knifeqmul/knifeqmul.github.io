@@ -30,7 +30,7 @@ frameborder="0" allowfullscreen>
 <html>
 <body>
 <iframe width="560" height="315"
-src="http://haoyuan.uk/knife.html"
+src="http://haoyuanzhang1990.github.io/knife.html"
 frameborder="0" allowfullscreen>
 </iframe>
 </body>
