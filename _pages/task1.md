@@ -16,7 +16,9 @@ permalink: /task1/
 This task will result in a description of the data that can be shared with potential collaborators. A complete data dictionary may not be necessary if the same concepts recur in different parts of the data.
 
 
-##### Coding
+<br>
+
+##### **Coding**
 Different coding systems are in use through the HES datasets. Diagnoses in the Hospital admissions records (aka Admitted Patient Care, APC) and Outpatient Records (OP) datasets are coded using the International Classification of Disease (ICD) clinical classification system. Entries up until 1995 were coded using ICD 9 and subsequent entries with ICD 10. 
 Establishing data interoperability between information coded to ICD 9 and ICD 10 can be challenging. Operative procedures are coded using the Office of Population Censuses and Survey’s (OPCS) version 4 clinical classification. Both classification systems are updated periodically to accommodate new conditions. NHS coding and classification standards – and cross-mapping reference files -
 are managed by the ‘Technology Reference data Update Distribution’ (TRUD) unit, that is part of NHS Digital40. 
@@ -31,6 +33,9 @@ Currently the NHS is moving to adopt the SNOMED CT nomenclature, and separately 
 
 
 <br>
+
+##### **Data Quality**
+
 Results of the Audit Commission’s 2009 national clinical coding audit in selected specialties in a large NHS Trust.
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
