@@ -26,4 +26,25 @@ frameborder="0" allowfullscreen>
 </body>
 </html>
 
-<iframe width="420" height="315" src="http://haoyuan.uk/knife.html" frameborder="0" allowfullscreen></iframe>
+
+<html>
+<body>
+<iframe width="560" height="315"
+src="http://haoyuan.uk/knife.html"
+frameborder="0" allowfullscreen>
+</iframe>
+</body>
+</html>
+
+
+
+
+<html>
+<body>
+<iframe width="560" height="315"
+src="http://haoyuan.uk"
+frameborder="0" allowfullscreen>
+</iframe>
+</body>
+</html>
+
