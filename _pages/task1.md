@@ -56,7 +56,7 @@ Results of the Audit Commission’s 2009 national clinical coding audit in selec
   <tr>
     <th class="tg-3r9o">Area audited</th>
     <th class="tg-zlqz">Primary<br>Diagnoses<br>Incorrect<br>(%)</th>
-    <th class="tg-zlqz">Secondary<br>Diagnoses<br>Incorrect<br>(%)</th>
+    <th class="tg-zlqz">Secondary<br>Diagnoses*<br>Incorrect<br>(%)</th>
     <th class="tg-zlqz">Primary<br>Procedures<br>Incorrect<br>(%)</th>
     <th class="tg-zlqz">Secondary<br>Procedures<br>Incorrect<br>(%)</th>
   </tr>
@@ -96,7 +96,7 @@ Results of the Audit Commission’s 2009 national clinical coding audit in selec
     <td class="tg-7btt">15.3</td>
   </tr>
 </table>
-
+* Conditions that coexist at the time of admission, or develop subsequently, and that affect the patient care during the current episode
 <br>
 
 
