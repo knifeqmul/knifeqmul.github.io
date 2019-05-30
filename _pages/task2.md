@@ -16,7 +16,7 @@ This task will result in a ‘data sandpit’ to allow other researchers to eval
 
 
 <figure>
-<img src="{{ site.url }}{{ site.baseurl }}/images/dataGeneration.jpg" width="60%" >
+<img src="{{ site.url }}{{ site.baseurl }}/images/dataGeneration.jpg" width="80%" >
 </figure>
 
 
