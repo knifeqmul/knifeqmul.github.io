@@ -14,6 +14,13 @@ permalink: /task3/
 *  If possible, carry out ‘proof of concepts’ analyses, using either real or synthetic data (Task 2).
 
 The task will result in a clearer definition in the data analysis and knowledge modelling research needs, distinguishing these from what can be achieved with current techniques. 
+
+
+
+<figure>
+<img src="{{ site.url }}{{ site.baseurl }}/images/sem.png" width="80%" >
+</figure>
+
 For full details see [here](http://haoyuan.uk/PLSPMModel_Haoyuan_RMD.html).
 
 
