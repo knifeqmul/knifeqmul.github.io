@@ -96,7 +96,7 @@ Results of the Audit Commission’s 2009 national clinical coding audit in selec
     <td class="tg-7btt">15.3</td>
   </tr>
 </table>
-* Conditions that coexist at the time of admission, or develop subsequently, and that affect the patient care during the current episode
+*Conditions that coexist at the time of admission, or develop subsequently, and that affect the patient care during the current episode
 <br>
 
 
