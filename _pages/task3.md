@@ -15,3 +15,10 @@ permalink: /task3/
 
 The task will result in a clearer definition in the data analysis and knowledge modelling research needs, distinguishing these from what can be achieved with current techniques. 
 For full details see [here](http://haoyuan.uk/PLSPMModel_Haoyuan_RMD.html).
+
+
+
+
+
+#### Timelapse of our STM assembling [(see LION news item)](https://www.physics.leidenuniv.nl/index.php?id=11573&news=867&type=lion&ln=EN):
+<iframe width="560" height="315" src="http://haoyuan.uk/PLSPMModel_Haoyuan_RMD.html" frameborder="0" allowfullscreen></iframe>
