@@ -14,12 +14,3 @@ This task will be to build a consortium of researcher to collaborate on future w
 
 
 
-
-
-### Data Warehouse
-#### 1. i2b2
-Features: 'such as patient de-identification, natural language processing extensions, navigation using terminologies (e.g. ICD-10), combination of EHR data with genomics and a user friendly ‘drag and drop’ interface'
-
-
-
-
