@@ -34,9 +34,7 @@ Features: 'such as patient de-identification, natural language processing extens
 ###### **2. Hospital Episode Statistics (HES)**
 Hospital Episode Statistics (HES) is a data warehouse containing details of all admissions, outpatient appointments and A and E attendances at NHS hospitals in England.
 
-Its data dictionary can be found in https://www.datadictionary.nhs.uk/version2/web_site_content/navigation/main_menu.asp
-
-
+Its data dictionary can be found in <a href='https://www.datadictionary.nhs.uk/version2/web_site_content/navigation/main_menu.asp/'>here</a>
 
 
 
