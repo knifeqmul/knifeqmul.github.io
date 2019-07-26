@@ -6,7 +6,7 @@ sitemap: false
 permalink: /task3/
 ---
 
-#### **Task 3: Data Use, Knowledge Elicitation and Analysis Methods.**
+#### **Workshop: A workshop about medical data and SNOMED was conducted at 3 July 2019.**
 
 *  Elicit from data custodians the uses of the data and categorise the data analytic challenges. We will consider both what is currently possible and what might be achieved in future.
 *  Review available statistical / ML (including SRL) techniques against the data analytic requirements.
