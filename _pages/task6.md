@@ -1,9 +1,9 @@
 ﻿---
-title: "KNIFE - Task3"
+title: "KNIFE - Task6"
 layout: textlay
-excerpt: "KNIFE - Task3"
+excerpt: "KNIFE - Task6"
 sitemap: false
-permalink: /task3/
+permalink: /task6/
 ---
 
 #### **Workshop: A workshop about medical data and SNOMED was conducted at 3 July 2019.**
