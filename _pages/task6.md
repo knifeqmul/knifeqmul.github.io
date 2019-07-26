@@ -7,13 +7,8 @@ permalink: /task3/
 ---
 
 #### **Workshop: A workshop about medical data and SNOMED was conducted at 3 July 2019.**
+1. <a href='{{ site.url }}{{ site.baseurl }}/downloads/Sophie.pdf/'> Sophie Williams. Using AI to Predict Vascular Complications in Diabetes</a>
+2. <a href='{{ site.url }}{{ site.baseurl }}/downloads/Chloe.pdf/'> Chloe Keith-Jopp. Data Flow Audit of MSK services</a>
+3. <a href='{{ site.url }}{{ site.baseurl }}/downloads/Haoyuan.pdf/'> Haoyuan Zhang. Data Journey</a>
+4. <a href='{{ site.url }}{{ site.baseurl }}/downloads/Ali.pdf/'> Ali Fahmi. Ontologies for Medical Decision Support</a>
 
-*  Elicit from data custodians the uses of the data and categorise the data analytic challenges. We will consider both what is currently possible and what might be achieved in future.
-*  Review available statistical / ML (including SRL) techniques against the data analytic requirements.
-*  Investigate how causal knowledge could be elicited and modelled for data of this complexity (with examples, if possible).
-*  If possible, carry out ‘proof of concepts’ analyses, using either real or synthetic data (Task 2).
-
-The task will result in a clearer definition in the data analysis and knowledge modelling research needs, distinguishing these from what can be achieved with current techniques. 
-
-
-For full details see [here](http://haoyuan.uk/PLSPMModel_Haoyuan_RMD.html).
